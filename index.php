@@ -11,7 +11,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Marco Estrada Lopez - Portafolio" />
     <meta property="og:description" content="Sitio Web de Marco Estrada Lopez en donde encontraras informacion profesional para trabajos personales y consultoría" />
-    <meta property="og:image" content="https://devmarcoestrada.com/assets/img/main_image.jpg" />
+    <meta property="og:image" content="https://devmarcoestrada.com/assets/img/main_image.png" />
     <meta property="og:image:width" content="1328" />
     <meta property="og:image:height" content="630" />
     <meta property="og:url" content="https://devmarcoestrada.com" />
