@@ -19,7 +19,8 @@
     
     <meta property="fb:app_id" content="101410998343668" />
     <!--  FavIcon  -->
-    <link rel="shortcut icon" href="/assets/img/ico.png" type='image/png'>
+    
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/img/ico.ico" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:400,600" rel="stylesheet">
