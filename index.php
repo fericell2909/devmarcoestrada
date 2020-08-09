@@ -16,7 +16,8 @@
     <meta property="og:image:height" content="630" />
     <meta property="og:url" content="https://devmarcoestrada.com" />
     <meta property="og:site_name" content="Sitio Web de Marco Estrada Lopez en donde encontraras informacion profesiona" />
-
+    
+    <meta property="fb:app_id" content="101410998343668" />
     <!--  FavIcon  -->
     <link rel="shortcut icon" href="https://devmarcoestrada.com/assets/img/ico.ico">
 
