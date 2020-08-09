@@ -10,7 +10,7 @@
     <meta name="author" content="Marco Estrada Lopez" />
 
     <!--  FavIcon  -->
-    <link rel="shortcut icon" href="http://placehold.it/60x60">
+    <link rel="shortcut icon" href="https://placehold.it/60x60">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:400,600" rel="stylesheet">
@@ -57,7 +57,7 @@
                                         <div class="rounded px-lg-5">
                                             <div class="text-md-left">
                                                 <h4 class="mb-4">The best way to become a good web designer</h4>
-                                                <img src="http://placehold.it/900x500" alt="" class="img-fluid w-100 rounded">
+                                                <img src="https://placehold.it/900x500" alt="" class="img-fluid w-100 rounded">
                                                 <span class="d-inline-block py-4"> 1 April 2019
                                         / By <span class="purple-color text-right"> John Doe. </span>
                                         </span>
@@ -169,7 +169,7 @@
                                         </div>
                                         <div class="mt-5">
                                             <div class="portfolio-single-item">
-                                                <img src="http://placehold.it/1200x600" class="d-block w-100 rounded" alt="...">
+                                                <img src="https://placehold.it/1200x600" class="d-block w-100 rounded" alt="...">
                                             </div>
                                         </div>
                                         <div class="text-md-left mt-5">
@@ -608,14 +608,14 @@
                         <div class="portfolio-items mt-4 row">
                             <div class="col-lg-4 portfolio-item my-3 seo">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/">
+                                    <img src="https://placehold.it/600x450" alt="/">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <button type="button" data-toggle="modal" data-target="#portfolio-single">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="http://placehold.it/600x450" class="js-zoom-gallery">
+                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
@@ -626,14 +626,14 @@
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 graphic">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/">
+                                    <img src="https://placehold.it/600x450" alt="/">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <button type="button" data-toggle="modal" data-target="#portfolio-single">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="http://placehold.it/600x450" class="js-zoom-gallery">
+                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
@@ -644,14 +644,14 @@
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 webdesign graphic">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/">
+                                    <img src="https://placehold.it/600x450" alt="/">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <button type="button" data-toggle="modal" data-target="#portfolio-single">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="http://placehold.it/600x450" class="js-zoom-gallery">
+                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
@@ -662,14 +662,14 @@
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 webdesign">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/">
+                                    <img src="https://placehold.it/600x450" alt="/">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <button type="button" data-toggle="modal" data-target="#portfolio-single">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="http://placehold.it/600x450" class="js-zoom-gallery">
+                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
@@ -680,14 +680,14 @@
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 mobiledesign seo">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/">
+                                    <img src="https://placehold.it/600x450" alt="/">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <button type="button" data-toggle="modal" data-target="#portfolio-single">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="http://placehold.it/600x450" class="js-zoom-gallery">
+                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
@@ -698,14 +698,14 @@
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 webdesign seo">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/">
+                                    <img src="https://placehold.it/600x450" alt="/">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <button type="button" data-toggle="modal" data-target="#portfolio-single">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="http://placehold.it/600x450" class="js-zoom-gallery">
+                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
@@ -716,14 +716,14 @@
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 mobiledesign">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/">
+                                    <img src="https://placehold.it/600x450" alt="/">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <button type="button" data-toggle="modal" data-target="#portfolio-single">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="http://placehold.it/600x450" class="js-zoom-gallery">
+                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
@@ -734,14 +734,14 @@
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/">
+                                    <img src="https://placehold.it/600x450" alt="/">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <button type="button" data-toggle="modal" data-target="#portfolio-single">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="http://placehold.it/600x450" class="js-zoom-gallery">
+                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
@@ -752,14 +752,14 @@
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="http://placehold.it/600x450" alt="/">
+                                    <img src="https://placehold.it/600x450" alt="/">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <button type="button" data-toggle="modal" data-target="#portfolio-single">
                                                     <i class="lni-link"></i>
                                                 </button>
-                                                <a href="http://placehold.it/600x450" class="js-zoom-gallery">
+                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
@@ -796,28 +796,28 @@
                                     <div class="testimonial-item text-left">
                                         <p class="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
                                         <div class="float-left mt-4 mr-3 mr-sm-4">
-                                            <img src="http://placehold.it/125x125" alt="/" class="rounded-circle">
+                                            <img src="https://placehold.it/125x125" alt="/" class="rounded-circle">
                                         </div>
                                         <h4 class="float-left mt-5">-Jone Doe, <span class="font-weight-bold">Seo Manager</span></h4>
                                     </div>
                                     <div class="testimonial-item text-left">
                                         <p class="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
                                         <div class="float-left mt-4 mr-3 mr-sm-4">
-                                            <img src="http://placehold.it/125x125" alt="/" class="rounded-circle">
+                                            <img src="https://placehold.it/125x125" alt="/" class="rounded-circle">
                                         </div>
                                         <h4 class="float-left mt-5">-Jessy Doe, <span class="font-weight-bold">UI Designer</span></h4>
                                     </div>
                                     <div class="testimonial-item text-left">
                                         <p class="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
                                         <div class="float-left mt-4 mr-3 mr-sm-4">
-                                            <img src="http://placehold.it/125x125" alt="/" class="rounded-circle">
+                                            <img src="https://placehold.it/125x125" alt="/" class="rounded-circle">
                                         </div>
                                         <h4 class="float-left mt-5">-Jully Doe, <span class="font-weight-bold">UX Designer</span></h4>
                                     </div>
                                     <div class="testimonial-item text-left">
                                         <p class="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
                                         <div class="float-left mt-4 mr-3 mr-sm-4">
-                                            <img src="http://placehold.it/125x125" alt="/" class="rounded-circle">
+                                            <img src="https://placehold.it/125x125" alt="/" class="rounded-circle">
                                         </div>
                                         <h4 class="float-left mt-5">-Jully Doe, <span class="font-weight-bold">UX Designer</span></h4>
                                     </div>
@@ -851,7 +851,7 @@
                             <div class="col-lg-4">
                                 <div class="blog-item">
                                     <div class="image-blog">
-                                        <img src="http://placehold.it/600x400" alt="/" class="img-fluid rounded-top">
+                                        <img src="https://placehold.it/600x400" alt="/" class="img-fluid rounded-top">
                                     </div>
                                     <div class="blog-content rounded-bottom text-left p-3">
                                         <h5 class="mb-0 mt-3"><a href="javascript:void(0)" data-toggle="modal" data-target="#blog-single" class="text-dark font-weight-light">Be Your Best Version</a></h5>
@@ -873,7 +873,7 @@
                             <div class="col-lg-4">
                                 <div class="blog-item">
                                     <div class="image-blog">
-                                        <img src="http://placehold.it/600x400" alt="/" class="img-fluid rounded-top">
+                                        <img src="https://placehold.it/600x400" alt="/" class="img-fluid rounded-top">
                                     </div>
                                     <div class="blog-content rounded-bottom text-left p-3">
                                         <h5 class="mb-0 mt-3"><a href="javascript:void(0)" data-toggle="modal" data-target="#blog-single" class="text-dark font-weight-light">5 Tips In UI/UX Web Design</a></h5>
@@ -895,7 +895,7 @@
                             <div class="col-lg-4">
                                 <div class="blog-item">
                                     <div class="image-blog">
-                                        <img src="http://placehold.it/600x400" alt="/" class="img-fluid rounded-top">
+                                        <img src="https://placehold.it/600x400" alt="/" class="img-fluid rounded-top">
                                     </div>
                                     <div class="blog-content rounded-bottom text-left p-3">
                                         <h5 class="mb-0 mt-3"><a href="javascript:void(0)" data-toggle="modal" data-target="#blog-single" class="text-dark font-weight-light">Write Your Dreams</a></h5>
@@ -994,7 +994,7 @@
         <!--   Contact End   -->
 
         <!--   Footer Start   -->
-       <!-- <div id="footer" class="section pp-scrollable footer" data-navigation-color="#fff" data-navigation-tooltip="FOOTER" data-background-image="http://placehold.it/1920x1280">
+       <!-- <div id="footer" class="section pp-scrollable footer" data-navigation-color="#fff" data-navigation-tooltip="FOOTER" data-background-image="https://placehold.it/1920x1280">
             <div class="container-fluid">
                 <div class="row py-6">
                     <div class="title-small">
