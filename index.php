@@ -308,7 +308,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <a href=https://devmarcoestrada.com/assets/cv/ES_MARCO_ESTRADA_LOPEZ.pdf" download="ES_MARCO_ESTRADA_LOPEZ" class="pill-button mt-3 mb-lg-0 mr-4">Descargar CV</a>
+                                        <a href="https://devmarcoestrada.com/assets/cv/ES_MARCO_ESTRADA_LOPEZ.pdf" download="ES_MARCO_ESTRADA_LOPEZ" class="pill-button mt-3 mb-lg-0 mr-4">Descargar CV</a>
                                         <a href="#contact" class="pill-button mt-3 mb-lg-0">Enviame un Mensaje</a>
                                     </div>
                                 </div>
