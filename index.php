@@ -4,13 +4,21 @@
     <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Marco Estrada Lopez</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <title>Marco Estrada Lopez - Portafolio</title>
+    <meta name="description" content="Sitio Web de Marco Estrada Lopez en donde encontraras informacion profesional" />
+    <meta name="keywords" content="Portafolio , Desarrollador Web Full Stack , Remote" />
     <meta name="author" content="Marco Estrada Lopez" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Marco Estrada Lopez - Portafolio" />
+    <meta property="og:description" content="Sitio Web de Marco Estrada Lopez en donde encontraras informacion profesional para trabajos personales y consultoría" />
+    <meta property="og:image" content="https://devmarcoestrada.com/assets/img/main_image.jpg" />
+    <meta property="og:image:width" content="1328" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://devmarcoestrada.com" />
+    <meta property="og:site_name" content="Sitio Web de Marco Estrada Lopez en donde encontraras informacion profesiona" />
 
     <!--  FavIcon  -->
-    <link rel="shortcut icon" href="https://placehold.it/60x60">
+    <link rel="shortcut icon" href="https://devmarcoestrada.com/assets/img/ico.ico">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Muli:400,600" rel="stylesheet">
@@ -39,7 +47,7 @@
 
 
         <!-- Blog Single Modal -->
-        <div class="blog-single modal fade" id="blog-single" tabindex="-1" role="dialog" aria-labelledby="blogModalScrollable" aria-hidden="true">
+         <!--<div class="blog-single modal fade" id="blog-single" tabindex="-1" role="dialog" aria-labelledby="blogModalScrollable" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content bg-white">
                     <div class="modal-header">
@@ -49,7 +57,6 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <!--   Blog-single   Start -->
                         <div class="pt-4 pb-5">
                             <div class="container">
                                 <div class="row">
@@ -68,21 +75,16 @@
                                                 </div>
                                                 <p class="my-3 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
                                                 <ul class="list-unstyled mt-4 checkmark-list">
-                                                    <!-- Item-01 -->
                                                     <li class="mb-2">
                                                         <span class="text-muted ml-1">The purpose of lorem ipsum is to create</span>
                                                     </li>
-                                                    <!-- Item-02 -->
                                                     <li class="mb-2">
                                                         <span class="text-muted ml-1">In particular, the garbled words of lorem ipsum</span>
                                                     </li>
-                                                    <!-- Item-03 -->
                                                     <li class="mb-2">
                                                         <span class="text-muted ml-1">occasionally circumstances occur in which toil</span>
                                                     </li>
                                                 </ul>
-
-                                                <!--Blog Reply-->
                                                 <div class="contact mt-4">
                                                     <div class="contact-form">
                                                         <h2 class="text-left mb-4">Leave a reply</h2>
@@ -116,14 +118,13 @@
                                 </div>
                             </div>
                         </div>
-                        <!--   Blog-Single End  -->
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <!-- Portfolio Single Modal -->
-        <div class="portfolio-single modal fade" id="portfolio-single" tabindex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
+       <!-- <div class="portfolio-single modal fade" id="portfolio-single" tabindex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
             <div class="modal-dialog modal-dialog-scrollable" role="document">
                 <div class="modal-content bg-white">
                     <div class="modal-header">
@@ -183,7 +184,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
 
     <!--  Page Pilling  Strat  -->
     <div id="pagepiling" class="pagepiling">
@@ -212,7 +213,7 @@
                                         <li data-menuanchor="portfolio" class="list-group-item" style="display: none;"><a href="#portfolio">Portafolio</a></li>
                                         <li data-menuanchor="client" class="list-group-item"  style="display: none;"><a href="#testimonial">Clientes</a></li>
                                         <li data-menuanchor="blog" class="list-group-item" style="display: none;"><a href="#blog">Blog</a></li>
-                                        <li data-menuanchor="blog" class="list-group-item" ><a href="#contact">Contactame</a></li>
+                                        <li data-menuanchor="contact" class="list-group-item" ><a href="#contact">Contactame</a></li>
                                     </ul>
                                     <ul class="list-group contact-info text-left mb-0">
                                         <li class="list-group-item"><span>INFORMACION DE CONTACTO</span></li>
@@ -307,7 +308,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-12">
-                                        <a href="/" class="pill-button mt-3 mb-lg-0 mr-4">Descargar CV</a>
+                                        <a href=https://devmarcoestrada.com/assets/cv/ES_MARCO_ESTRADA_LOPEZ.pdf" download="ES_MARCO_ESTRADA_LOPEZ" class="pill-button mt-3 mb-lg-0 mr-4">Descargar CV</a>
                                         <a href="#contact" class="pill-button mt-3 mb-lg-0">Enviame un Mensaje</a>
                                     </div>
                                 </div>
@@ -928,7 +929,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="title-small">
-                                <p class="text-dark">Actualmente me encuentro</p>
+                                <p class="text-dark">CONCTACTAME</p>
                             </div>
                             <div class="col-lg-12">
                                 <div class="text-left">
@@ -937,11 +938,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-5">
+                        <!-- <div class="row mt-5">
                             <div class="col-lg-12">
                                 <div id="my-map" data-location-lat="-9.121018941533201"  data-location-lng="-78.53201262380091" data-location-icon="https://developers.google.com/maps/images/maps-icon.svg"></div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="row mt-5">
                             <div class="col-lg-6 text-left">
                                 <div class="contact-form">
@@ -1039,7 +1040,7 @@
     <!--  Owl carousel Js  -->
     <script src="assets/js/owl.carousel.min.js"></script>
     <!-- Map Js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7S0_s247v3nTkrVLa1A_1Nq6G13uw9U0"></script>
+    <!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7S0_s247v3nTkrVLa1A_1Nq6G13uw9U0"></script>-->
     <!--  Custom JS  -->
     <script src="assets/js/nill.js"></script>
     </body>
