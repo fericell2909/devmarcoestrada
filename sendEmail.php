@@ -51,6 +51,14 @@ $comments = $comment.'<br>Nombre is: '.$name/*.'<br>Phone number is: '.$phone*/;
 $mail->Subject = 'Pagina devmarcoestrada';
 $mail->Body    = $comments;
 
+$mail->SMTPOptions = array(
+    'ssl' => array(
+        'verify_peer' => false,
+        'verify_peer_name' => false,
+        'allow_self_signed' => true
+    )
+);
+
 if(!$mail->send()) {
 
     $data = array(
