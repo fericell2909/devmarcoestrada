@@ -25,7 +25,7 @@ $(document).ready(function () {
     portfolioPopup();
     mapInit();
     validateEmail();
-    sendEmail();
+    //sendEmail();
     $('.owl-item.active .hero-slide').addClass('zoom');
     
 
@@ -527,12 +527,12 @@ function sendEmail() {
             data: $("#contactForm").serialize(),
             url:  "sendEmail.php",
             beforeSend: function() {
-                $('#submit-btn').html('<span class="spinner-border spinner-border-sm"></span> Loading..');
+                $('#submit-btn').html('<span class="spinner-border spinner-border-sm"></span> Cargando...');
             },
             success: function(data) {
-                $('#submit-btn').html('Submit');
+                $('#submit-btn').html('Enviar Mensaje');
                 var myObj = JSON.parse(data);
-                if(myObj['status']=='Congratulation'){
+                if(myObj['status']=='Felicitaciones'){
                     $('#message').toast('show').css("background-color", "#5cb85c");
                     $('.toast-body').html('<strong>'+ myObj['status'] +' : </strong> '+ myObj['message']);
                 }else if(myObj['status']=='Error'){
@@ -544,8 +544,8 @@ function sendEmail() {
                 }
             },
             error: function(xhr) {
-                $('#submit-btn').html('Send Message');
-                $('.toast-body').html('<strong> Error : </strong> Something went wrong, try again.');
+                $('#submit-btn').html('Enviar Mensaje');
+                $('.toast-body').html('<strong> Error : </strong> Ha ocurrido un Error. Intente nuevamente.');
             },
         });
     }

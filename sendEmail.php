@@ -11,7 +11,7 @@ $data = [];
 
 if (isset($_POST['email'])) {
     $para = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['email']);
-    $para = filter_var($email, FILTER_VALIDATE_EMAIL);
+    $para = filter_var($para, FILTER_VALIDATE_EMAIL);
 }
 
 if (isset($_POST['name'])) {
@@ -38,7 +38,7 @@ try {
     $response = $sendgrid->send($email);
 
     $data = array(
-        'status' => 'Congratulation',
+        'status' => 'Felicitaciones',
         'message' => 'Tu Mensaje ha sido enviado correctamente. Gracias por contactarte conmigo.');
 
     
