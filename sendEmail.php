@@ -27,6 +27,7 @@ $email = new \SendGrid\Mail\Mail();
 $email->setFrom("info@devmarcoestrada.com", "Marco Estrada");
 $email->setSubject("Mensaje Visitante - " . $name);
 $email->addTo($para, "Visitante");
+$email->addTo("info@devmarcoestrada.com", "Marco Estrada");
 $email->addContent(
     "text/html", $comment);
 
