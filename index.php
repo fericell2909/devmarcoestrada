@@ -672,7 +672,7 @@
                                                 <a href="http://taglio.daleclick.pe/taglio/carta" target="_blanck">
                                                     <i class="lni-link"></i>
                                                 </a>
-                                                <a href="/devmarcoestrada/assets/proyectos/tienda_taglio.PNG" class="js-zoom-gallery">
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_taglio.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
