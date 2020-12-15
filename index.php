@@ -611,14 +611,14 @@
                         <div class="portfolio-items mt-4 row">
                             <div class="col-lg-4 portfolio-item my-3 seo">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.PNG" alt="Tienda Virtual de JoeBurguer">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.png" alt="Tienda Virtual de JoeBurguer">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
                                                 <a href="https://joesburguer.com/product" target="_blanck">
                                                     <i class="lni-link"></i>
                                                 </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.PNG" class="js-zoom-gallery">
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.png" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
