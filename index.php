@@ -212,7 +212,7 @@
                                         <li data-menuanchor="about" class="list-group-item"><a href="#about">Sobre mi</a></li>
                                         <li data-menuanchor="services" class="list-group-item"><a href="#resume">Resumen</a></li>
                                         <li data-menuanchor="services" class="list-group-item"  style="display: none;"><a href="#services">Servicios</a></li>
-                                        <li data-menuanchor="portfolio" class="list-group-item" style="display: none;"><a href="#portfolio">Portafolio</a></li>
+                                        <li data-menuanchor="portfolio" class="list-group-item"><a href="#portfolio">Portafolio</a></li>
                                         <li data-menuanchor="client" class="list-group-item"  style="display: none;"><a href="#testimonial">Clientes</a></li>
                                         <li data-menuanchor="blog" class="list-group-item" style="display: none;"><a href="#blog">Blog</a></li>
                                         <li data-menuanchor="contact" class="list-group-item" ><a href="#contact">Contactame</a></li>
@@ -402,7 +402,7 @@
                                         <div class="skill-bar-percent">85%</div>
                                     </div>
                                     <div class="skillbar clearfix" data-percent="75%">
-                                        <div class="skillbar-title"><span>JavaScript - Vue.js</span></div>
+                                        <div class="skillbar-title"><span>JavaScript - Vue.js - React.js</span></div>
                                         <div class="skillbar-bar"></div>
                                         <div class="skill-bar-percent">75%</div>
                                     </div>
@@ -416,7 +416,7 @@
                             <div class="col-lg-6">
                                 <div class="skill-box pt-4 pt-lg-0 mt-4 mt-lg-0">
                                     <div class="skillbar clearfix" data-percent="95%">
-                                        <div class="skillbar-title"><span>Postgresl - MySQL - SQL Server - Oracle</span></div>
+                                        <div class="skillbar-title"><span>PostgreSQL - MySQL - SQL Server - Oracle</span></div>
                                         <div class="skillbar-bar"></div>
                                         <div class="skill-bar-percent">95%</div>
                                     </div>
@@ -574,7 +574,7 @@
         <!--   Services End   -->
 
         <!--  Portfolio Start  -->
-        <!--<section id="portfolio" class="section pp-scrollable portfolio bg-dark" data-navigation-color="#fff" data-navigation-tooltip="PORTAFOLIO">
+        <section id="portfolio" class="section pp-scrollable portfolio bg-dark" data-navigation-color="#fff" data-navigation-tooltip="PORTAFOLIO">
             <div class="display-table">
                 <div class="display-content">
                     <div class="container">
@@ -584,189 +584,189 @@
                             </div>
                             <div class="col-lg-12">
                                 <div class="text-left">
-                                    <h2 class="text-dark">Creative <span class="base-color">Works</span></h2>
-                                    <p class="text-muted mx-auto section-subtitle mt-3">Meet My Awesome Works and Enjoy</p>
+                                    <h2 class="text-dark"><span class="base-color">Portafolio</span></h2>
+                                    <p class="text-muted mx-auto section-subtitle mt-3">Trabajos realizados y/o participado.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="row mt-4">
                             <ul id="portfolio-filter" class="list-unstyled list-inline mb-0 col-lg-12 text-left portfolio-filter">
                                 <li class="list-inline-item">
-                                    <a href="#" data-filter="*" class="active my-1">All</a>
+                                    <a href="#" data-filter="*" class="active my-1">Todos</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" data-filter=".webdesign" class="my-1">Web Design</a>
+                                    <a href="#" data-filter=".webdesign" class="my-1">Web</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" data-filter=".mobiledesign" class="my-1">Mobile Design</a>
+                                    <a href="#" data-filter=".mobiledesign" class="my-1">Tienda Virtual</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" data-filter=".seo" class="my-1">Seo</a>
+                                    <a href="#" data-filter=".seo" class="my-1">Wordpress</a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#" data-filter=".graphic" class="my-1">Graphic</a>
+                                    <a href="#" data-filter=".graphic" class="my-1">Libre</a>
                                 </li>
                             </ul>
                         </div>
                         <div class="portfolio-items mt-4 row">
                             <div class="col-lg-4 portfolio-item my-3 seo">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://placehold.it/600x450" alt="/">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.PNG" alt="Tienda Virtual de JoeBurguer">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <a href="https://joesburguer.com/product" target="_blanck">
                                                     <i class="lni-link"></i>
-                                                </button>
-                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">JoeBurguer</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 graphic">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://placehold.it/600x450" alt="/">
+                                <img src="https://devmarcoestrada.com/assets/proyectos/wordpress_brandfood.PNG" alt="Landing Page de Brandfood">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <a href="https://brandfood.com.pe/" target="_blanck">
                                                     <i class="lni-link"></i>
-                                                </button>
-                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/wordpress_brandfood.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">BrandFood</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 webdesign graphic">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://placehold.it/600x450" alt="/">
+                                <img src="https://devmarcoestrada.com/assets/proyectos/wordpress_casascruz.PNG" alt="Landing Page de Casas Cruz">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <a href="https://www.casascruz.com/" target="_blanck">
                                                     <i class="lni-link"></i>
-                                                </button>
-                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/wordpress_casascruz.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Casas Cruz</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 webdesign">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://placehold.it/600x450" alt="/">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_taglio.PNG" alt="Tienda Virtual Taglio">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <a href="http://taglio.daleclick.pe/taglio/carta" target="_blanck">
                                                     <i class="lni-link"></i>
-                                                </button>
-                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
+                                                </a>
+                                                <a href="/devmarcoestrada/assets/proyectos/tienda_taglio.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Taglio</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 mobiledesign seo">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://placehold.it/600x450" alt="/">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/web_tecnolaw.PNG" alt="Landing Page Tecnolaw">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <a href="https://tecnolaw.com/" target="_blanck">
                                                     <i class="lni-link"></i>
-                                                </button>
-                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/web_tecnolaw.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Tecnolaw</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 webdesign seo">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://placehold.it/600x450" alt="/">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_jugueteria.PNG" alt="Tienda Virtual Jugueteria Camps">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <a href="https://jugueteriacamps.com/" target="_blanck">
                                                     <i class="lni-link"></i>
-                                                </button>
-                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_jugueteria.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Jugueteria Camps</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 mobiledesign">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://placehold.it/600x450" alt="/">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/wordpress_costabella.PNG" alt="Landing Page Costabella">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <a href="https://hotelcostabela.com/" target="_blanck">
                                                     <i class="lni-link"></i>
-                                                </button>
-                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/wordpress_costabella.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Costabella</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://placehold.it/600x450" alt="/">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/web_marcoestrada.PNG" alt="Pagina Web de Marco Estrada">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <a href="https://devmarcoestrada.com/" target="_blanck">
                                                     <i class="lni-link"></i>
-                                                </button>
-                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/web_marcoestrada.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Marco Estrada</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="https://placehold.it/600x450" alt="/">
+                                <div class="portfolio-item-content rounded">    
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_bipolar.PNG" alt="Pagina Web de Bipolar">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <button type="button" data-toggle="modal" data-target="#portfolio-single">
+                                                <a href="https://www.bipolar.com.pe" target="_blanck">
                                                     <i class="lni-link"></i>
-                                                </button>
-                                                <a href="https://placehold.it/600x450" class="js-zoom-gallery">
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_bipolar.PNG" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">My Work</h5>
+                                            <h5 class="text-white mt-3 mb-0">Bipolar</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -775,7 +775,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
 
         <!-- Testimonial Start -->
         <!-- <section id="testimonial" class="section pp-scrollable testimonial text-center bg-dark" data-navigation-color="#fff" data-navigation-tooltip="CLIENTES">
