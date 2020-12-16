@@ -59,7 +59,7 @@
     }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174906109-2"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180713703-1"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
 
@@ -69,7 +69,7 @@
 
       gtag('js', new Date());
 
-      gtag('config', 'UA-174906109-2');
+      gtag('config', 'UA-180713703-1');
 
       
     </script>
