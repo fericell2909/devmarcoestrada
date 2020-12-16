@@ -58,6 +58,21 @@
         margin-top:16px;
     }
     </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174906109-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag('js', new Date());
+
+      gtag('config', 'UA-174906109-2');
+
+      
+    </script>
     </head>
     <body class="pilling-page nill-dark"  data-spy="scroll" data-target="#scrollspy" data-offset="1">
 
