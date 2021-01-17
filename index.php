@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Marco Estrada Lopez - Portafolio</title>
     <meta name="description" content="Sitio Web de Marco Estrada Lopez en donde encontraras informacion profesional" />
-    <meta name="keywords" content="Portafolio , Desarrollador Web Full Stack , Remote" />
+    <meta name="keywords" content="Portafolio , Desarrollador Web Full Stack , Remote , Emprendedor" />
     <meta name="author" content="Marco Estrada Lopez" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Marco Estrada Lopez - Portafolio" />
@@ -15,7 +15,7 @@
     <meta property="og:image:width" content="1328" />
     <meta property="og:image:height" content="630" />
     <meta property="og:url" content="https://devmarcoestrada.com" />
-    <meta property="og:site_name" content="Sitio Web de Marco Estrada Lopez en donde encontraras informacion profesiona" />
+    <meta property="og:site_name" content="Sitio Web de Marco Estrada Lopez en donde encontraras informacion profesional" />
     
     <meta property="fb:app_id" content="101410998343668" />
     <!--  FavIcon  -->
@@ -226,6 +226,7 @@
     <div id="pagepiling" class="pagepiling">
     <a href="https://api.whatsapp.com/send?phone=51920200067&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Tus%20Servicios%20" class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
+    
     </a>
         <!--   Header Start -->
         <header>
