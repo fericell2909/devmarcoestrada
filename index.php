@@ -80,6 +80,148 @@
     <div id="overlayer">
         <span class="spinner-grow spinner-grow-lg loader" role="status" aria-hidden="true"></span>
     </div>
+
+
+        <!-- Blog Single Modal -->
+         <!--<div class="blog-single modal fade" id="blog-single" tabindex="-1" role="dialog" aria-labelledby="blogModalScrollable" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content bg-white">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="blogModalScrollable">Write Your Dreams</h5>
+                        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="pt-4 pb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-10 offset-lg-1 blog">
+                                        <div class="rounded px-lg-5">
+                                            <div class="text-md-left">
+                                                <h4 class="mb-4">The best way to become a good web designer</h4>
+                                                <img src="https://placehold.it/900x500" alt="" class="img-fluid w-100 rounded">
+                                                <span class="d-inline-block py-4"> 1 April 2019
+                                        / By <span class="purple-color text-right"> John Doe. </span>
+                                        </span>
+                                                <p class="text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
+                                                <div class="px-md-5 px-3 py-4 quotation">
+                                                    <i class="base-color lni-quotation size-md"></i>
+                                                    <h6 class="base-color font-italic mb-0">We Love Buna, lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum id ligula felis euismod semper.</h6>
+                                                </div>
+                                                <p class="my-3 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
+                                                <ul class="list-unstyled mt-4 checkmark-list">
+                                                    <li class="mb-2">
+                                                        <span class="text-muted ml-1">The purpose of lorem ipsum is to create</span>
+                                                    </li>
+                                                    <li class="mb-2">
+                                                        <span class="text-muted ml-1">In particular, the garbled words of lorem ipsum</span>
+                                                    </li>
+                                                    <li class="mb-2">
+                                                        <span class="text-muted ml-1">occasionally circumstances occur in which toil</span>
+                                                    </li>
+                                                </ul>
+                                                <div class="contact mt-4">
+                                                    <div class="contact-form">
+                                                        <h2 class="text-left mb-4">Leave a reply</h2>
+                                                        <form>
+                                                            <div class="row">
+                                                                <div class="col-lg-6 form-item">
+                                                                    <div class="form-group">
+                                                                        <input name="name" id="blog-name" type="text" class="form-control" placeholder="Your Name*" required>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-lg-6 form-item">
+                                                                    <div class="form-group">
+                                                                        <input name="email" id="blog-email" type="email" class="form-control" placeholder="Your Email*" required>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-12 form-item">
+                                                                    <div class="form-group">
+                                                                        <textarea name="comments" id="blog-comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-sm-12 mt-4 text-left">
+                                                                    <button type="submit" class="pill-button" id="blog-submit-btn">Submit</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Portfolio Single Modal -->
+       <!-- <div class="portfolio-single modal fade" id="portfolio-single" tabindex="-1" role="dialog" aria-labelledby="portfolioModalScrollable" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content bg-white">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="portfolioModalScrollable">My Work</h5>
+                        <button type="button" class="close text-muted" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="pt-4 pb-5">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-12 col-md-10 offset-md-1">
+                                        <div class="text-center">
+                                            <h2 class="text-dark mb-3">Single <span class="base-color"> Portfolio</span></h2>
+                                            <p class="text-muted max-width-450">In a professional context it often happens that private clients corder a publication to be made.</p>
+                                        </div>
+                                        <div class="row contact-info mt-5">
+                                            <div class="col-md-4">
+                                                <div class="text-center">
+                                                    <div>
+                                                        <h6>Created by:</h6>
+                                                        <p class="text-muted mb-0">John Doe</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 p-title-border mt-3 mt-md-0">
+                                                <div class="text-center">
+                                                    <div>
+                                                        <h6 class="contact_detail-title">Completed on:</h6>
+                                                        <p class="text-muted mb-0">September 30, 2019</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4 mt-3 mt-md-0">
+                                                <div class="text-center">
+                                                    <div>
+                                                        <h6>Skills:</h6>
+                                                        <p class="text-muted mb-0">HTML5 / PHP / CSS3</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="mt-5">
+                                            <div class="portfolio-single-item">
+                                                <img src="https://placehold.it/1200x600" class="d-block w-100 rounded" alt="...">
+                                            </div>
+                                        </div>
+                                        <div class="text-md-left mt-5">
+                                            <p class="my-3 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
+                                            <p class="mt-3 mb-0 text-muted">These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. This is dummy copy. It is not meant to be read. It has been placed here solely to demonstrate the look and feel of finished, typeset text. These words are here to provide the reader with a basic impression of how actual text will appear in its final presentation. Only for show.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+
     <!--  Page Pilling  Strat  -->
     <div id="pagepiling" class="pagepiling">
     <a href="https://api.whatsapp.com/send?phone=51920200067&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Tus%20Servicios%20" class="float" target="_blank">
@@ -277,7 +419,7 @@
                                     <h2 class="text-dark mb-3">Mi <span class="base-color">Resumen</span></h2>
                                     <p class="text-muted">Desarrollador Web Senior con más de 11 años de experiencia especializada en el desarrollo back-end. Capacitado profesionalmente para trabajar bajo presión acorde con las metas y objetivos definidos por el usuario, y enfocado en alcanzar la entrega a tiempo, considerando todas las etapas del ciclo de desarrollo para proyectos web dinámicos.
 
-                                        Competente en numerosos lenguajes de programación y framework, incluidos PHP, Laravel, Javascript, React ,  Vue, .Net, con experiencia consolidada en SCRUM Developer Certified - SDC y gestión de proyectos.
+                                        Competente en numerosos lenguajes de programación y framework, incluidos PHP, Laravel, Javascript, Vue.js, .Net, con experiencia consolidada en SCRUM Developer Certified - SDC y gestión de proyectos.
                                         
                                         Fácil de trabajar en equipo, adaptable y dispuesto a aprovechar una próxima oportunidad desafiante.</p>
                                 </div>
@@ -372,6 +514,361 @@
         </section>
         <!--   Resume End   -->
 
+        <!--   Services Start   -->
+     
+        <!--   Services End   -->
+
+        <!--  Portfolio Start  -->
+        <section id="portfolio" class="section pp-scrollable portfolio bg-dark" data-navigation-color="#fff" data-navigation-tooltip="PORTAFOLIO">
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title-small">
+                                <p class="text-dark">Portafolio</p>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="text-left">
+                                    <h2 class="text-dark"><span class="base-color">Portafolio</span></h2>
+                                    <p class="text-muted mx-auto section-subtitle mt-3">Trabajos realizados y/o participado.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <ul id="portfolio-filter" class="list-unstyled list-inline mb-0 col-lg-12 text-left portfolio-filter">
+                                <li class="list-inline-item">
+                                    <a href="#" data-filter="*" class="active my-1">Todos</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" data-filter=".webdesign" class="my-1">Web</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" data-filter=".mobiledesign" class="my-1">Tienda Virtual</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" data-filter=".seo" class="my-1">Wordpress</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#" data-filter=".graphic" class="my-1">Libre</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="portfolio-items mt-4 row">
+                            <div class="col-lg-4 portfolio-item my-3 seo">
+                                <div class="portfolio-item-content rounded">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.png" alt="Tienda Virtual de JoeBurguer">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="https://joesburguer.com/product" target="_blanck">
+                                                    <i class="lni-link"></i>
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.png" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">JoeBurguer</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 portfolio-item my-3 graphic">
+                                <div class="portfolio-item-content rounded">
+                                <img src="https://devmarcoestrada.com/assets/proyectos/wordpress_brandfood.PNG" alt="Landing Page de Brandfood">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="https://brandfood.com.pe/" target="_blanck">
+                                                    <i class="lni-link"></i>
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/wordpress_brandfood.PNG" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">BrandFood</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 portfolio-item my-3 webdesign graphic">
+                                <div class="portfolio-item-content rounded">
+                                <img src="https://devmarcoestrada.com/assets/proyectos/wordpress_casascruz.PNG" alt="Landing Page de Casas Cruz">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="https://www.casascruz.com/" target="_blanck">
+                                                    <i class="lni-link"></i>
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/wordpress_casascruz.PNG" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">Casas Cruz</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 portfolio-item my-3 webdesign">
+                                <div class="portfolio-item-content rounded">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_taglio.PNG" alt="Tienda Virtual Taglio">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="http://taglio.daleclick.pe/taglio/carta" target="_blanck">
+                                                    <i class="lni-link"></i>
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_taglio.PNG" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">Taglio</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 portfolio-item my-3 mobiledesign seo">
+                                <div class="portfolio-item-content rounded">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/web_tecnolaw.PNG" alt="Landing Page Tecnolaw">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="https://tecnolaw.com/" target="_blanck">
+                                                    <i class="lni-link"></i>
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/web_tecnolaw.PNG" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">Tecnolaw</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 portfolio-item my-3 webdesign seo">
+                                <div class="portfolio-item-content rounded">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_jugueteria.PNG" alt="Tienda Virtual Jugueteria Camps">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="https://jugueteriacamps.com/" target="_blanck">
+                                                    <i class="lni-link"></i>
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_jugueteria.PNG" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">Jugueteria Camps</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 portfolio-item my-3 mobiledesign">
+                                <div class="portfolio-item-content rounded">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/wordpress_costabella.PNG" alt="Landing Page Costabella">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="https://hotelcostabela.com/" target="_blanck">
+                                                    <i class="lni-link"></i>
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/wordpress_costabella.PNG" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">Costabella</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
+                                <div class="portfolio-item-content rounded">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/web_marcoestrada.PNG" alt="Pagina Web de Marco Estrada">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="https://devmarcoestrada.com/" target="_blanck">
+                                                    <i class="lni-link"></i>
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/web_marcoestrada.PNG" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">Marco Estrada</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
+                                <div class="portfolio-item-content rounded">    
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_bipolar.PNG" alt="Pagina Web de Bipolar">
+                                    <div class="img-overlay text-center">
+                                        <div class="img-overlay-content">
+                                            <div class="portfolio-icon">
+                                                <a href="https://www.bipolar.com.pe" target="_blanck">
+                                                    <i class="lni-link"></i>
+                                                </a>
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_bipolar.PNG" class="js-zoom-gallery">
+                                                    <i class="lni-search"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="text-white mt-3 mb-0">Bipolar</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Start -->
+        <!-- <section id="testimonial" class="section pp-scrollable testimonial text-center bg-dark" data-navigation-color="#fff" data-navigation-tooltip="CLIENTES">
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title-small">
+                                <p class="text-dark">Testimonial</p>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="text-left">
+                                    <h2 class="text-dark">My  <span class="base-color">Clients</span></h2>
+                                    <p class="text-muted mt-1">What my clients say about me</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <div class="owl-carousel">
+                                    <div class="testimonial-item text-left">
+                                        <p class="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
+                                        <div class="float-left mt-4 mr-3 mr-sm-4">
+                                            <img src="https://placehold.it/125x125" alt="/" class="rounded-circle">
+                                        </div>
+                                        <h4 class="float-left mt-5">-Jone Doe, <span class="font-weight-bold">Seo Manager</span></h4>
+                                    </div>
+                                    <div class="testimonial-item text-left">
+                                        <p class="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
+                                        <div class="float-left mt-4 mr-3 mr-sm-4">
+                                            <img src="https://placehold.it/125x125" alt="/" class="rounded-circle">
+                                        </div>
+                                        <h4 class="float-left mt-5">-Jessy Doe, <span class="font-weight-bold">UI Designer</span></h4>
+                                    </div>
+                                    <div class="testimonial-item text-left">
+                                        <p class="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
+                                        <div class="float-left mt-4 mr-3 mr-sm-4">
+                                            <img src="https://placehold.it/125x125" alt="/" class="rounded-circle">
+                                        </div>
+                                        <h4 class="float-left mt-5">-Jully Doe, <span class="font-weight-bold">UX Designer</span></h4>
+                                    </div>
+                                    <div class="testimonial-item text-left">
+                                        <p class="mb-2 text-muted">" In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional context it often happens that private or corporate clients corder a publication to be made. "</p>
+                                        <div class="float-left mt-4 mr-3 mr-sm-4">
+                                            <img src="https://placehold.it/125x125" alt="/" class="rounded-circle">
+                                        </div>
+                                        <h4 class="float-left mt-5">-Jully Doe, <span class="font-weight-bold">UX Designer</span></h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!--  Testimonial End  -->
+
+        <!--   Blog Start   -->
+       <!--    <section id="blog" class="section pp-scrollable blog bg-dark" data-navigation-color="#fff" data-navigation-tooltip="BLOG" style="display:none;">
+            <div class="display-table">
+                <div class="display-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="title-small">
+                                <p class="text-dark">Blog</p>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="text-left">
+                                    <h2 class="text-dark">Latest <span class="base-color">News</span></h2>
+                                    <p class="text-muted mt-1">Check Out My Latest Blog Posts</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-lg-4">
+                                <div class="blog-item">
+                                    <div class="image-blog">
+                                        <img src="https://placehold.it/600x400" alt="/" class="img-fluid rounded-top">
+                                    </div>
+                                    <div class="blog-content rounded-bottom text-left p-3">
+                                        <h5 class="mb-0 mt-3"><a href="javascript:void(0)" data-toggle="modal" data-target="#blog-single" class="text-dark font-weight-light">Be Your Best Version</a></h5>
+                                        <ul class="list-inline mt-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <i class="base-color font-weight-bold">by</i>
+                                                    <span class="text-dark font-italic">John Doe</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+                                        <div class="blog-link pb-3">
+                                            <button type="button" class="base-color" data-toggle="modal" data-target="#blog-single">Read More...</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="blog-item">
+                                    <div class="image-blog">
+                                        <img src="https://placehold.it/600x400" alt="/" class="img-fluid rounded-top">
+                                    </div>
+                                    <div class="blog-content rounded-bottom text-left p-3">
+                                        <h5 class="mb-0 mt-3"><a href="javascript:void(0)" data-toggle="modal" data-target="#blog-single" class="text-dark font-weight-light">5 Tips In UI/UX Web Design</a></h5>
+                                        <ul class="list-inline mt-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <i class="base-color font-weight-bold">by</i>
+                                                    <span class="text-dark font-italic">John Doe</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+                                        <div class="blog-link pb-3">
+                                            <button type="button" class="base-color" data-toggle="modal" data-target="#blog-single">Read More...</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="blog-item">
+                                    <div class="image-blog">
+                                        <img src="https://placehold.it/600x400" alt="/" class="img-fluid rounded-top">
+                                    </div>
+                                    <div class="blog-content rounded-bottom text-left p-3">
+                                        <h5 class="mb-0 mt-3"><a href="javascript:void(0)" data-toggle="modal" data-target="#blog-single" class="text-dark font-weight-light">Write Your Dreams</a></h5>
+                                        <ul class="list-inline mt-3">
+                                            <li class="list-inline-item">
+                                                <a href="#">
+                                                    <i class="base-color font-weight-bold">by</i>
+                                                    <span class="text-dark font-italic">John Doe</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+                                        <div class="blog-link pb-3">
+                                            <button type="button" class="base-color" data-toggle="modal" data-target="#blog-single">Read More...</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
         <!--   Contact Start   -->
         <section id="contact" class="section pp-scrollable contact bg-dark" data-navigation-color="#fff" data-navigation-tooltip="CONTACTAME">
             <div class="display-table">
@@ -442,8 +939,37 @@
                 </div>
             </div>
         </section>
+        <!--   Contact End   -->
+
+        <!--   Footer Start   -->
+       <!-- <div id="footer" class="section pp-scrollable footer" data-navigation-color="#fff" data-navigation-tooltip="FOOTER" data-background-image="https://placehold.it/1920x1280">
+            <div class="container-fluid">
+                <div class="row py-6">
+                    <div class="title-small">
+                        <p class="text-dark">Footer</p>
+                    </div>
+                    <div class="text-center m-auto">
+                        <p class="text-dark size-sm">N<span class="base-color">ILL</span></p>
+                        <ul class="list-inline socails">
+                            <li class="list-inline-item"><a class="text-white" href="#"><i class="lni-facebook-filled text-dark mr-2"></i></a></li>
+                            <li class="list-inline-item"><a class="text-white" href="#"><i class="lni-twitter-filled text-dark mr-2"></i></a></li>
+                            <li class="list-inline-item"><a class="text-white" href="#"><i class="lni-github-original text-dark mr-2"></i></a></li>
+                            <li class="list-inline-item"><a class="text-white" href="#"><i class="lni-linkedin-original text-dark mr-2"></i></a></li>
+                        </ul>
+                        <p class="pl-3 text-dark">Copyright © 2019. Template has been designed by <a class="base-color" href="javascript:void(0);">Retrina</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+
+        <!--   Color Scheme  -->
+        <a class="color-scheme text-white bg-base-color d-inline-block" href="javascript:void(0)"><i class="lni-sun"></i></a>
+
     </div>
-    
+    <!--  Page Pilling  End -->
+
+
     <!--  JavaScripts  -->
     <script src="assets/js/jquery-3.4.1.min.js"></script>
     <!--   Page Pilling Js     -->
