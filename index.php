@@ -333,7 +333,7 @@
                             </div>
                             <div class="col-lg-6 personal-item  mb-4 mb-lg-0">
                                 <h2 class="text-dark mb-2">Sobre <span class="base-color">Mí</span></h2>
-                                <h5 class="text-dark mb-3">Desarrollador Web Senior | Scrum Developer Certified |  PHP , C# , Vue.js Lover</h5>
+                                <h5 class="text-dark mb-3">Desarrollador Web Senior | Scrum Developer Certified |  PHP , React - Vue Lover</h5>
                                 <div class="row">
                                     <div class="col-lg-5 col-sm-6 personal-info">
                                         <p class="text-dark">Nacimiento : <span class="text-gray"> 29 Setiembre 1987</span></p>
