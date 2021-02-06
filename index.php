@@ -76,10 +76,10 @@
     </head>
     <body class="pilling-page nill-dark"  data-spy="scroll" data-target="#scrollspy" data-offset="1">
 
+    <!--  Pre Loader  -->
     <div id="overlayer">
         <span class="spinner-grow spinner-grow-lg loader" role="status" aria-hidden="true"></span>
     </div>
-
     <!--  Page Pilling  Strat  -->
     <div id="pagepiling" class="pagepiling">
     <a href="https://api.whatsapp.com/send?phone=51920200067&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Tus%20Servicios%20" class="float" target="_blank">
@@ -277,7 +277,7 @@
                                     <h2 class="text-dark mb-3">Mi <span class="base-color">Resumen</span></h2>
                                     <p class="text-muted">Desarrollador Web Senior con más de 11 años de experiencia especializada en el desarrollo back-end. Capacitado profesionalmente para trabajar bajo presión acorde con las metas y objetivos definidos por el usuario, y enfocado en alcanzar la entrega a tiempo, considerando todas las etapas del ciclo de desarrollo para proyectos web dinámicos.
 
-                                        Competente en numerosos lenguajes de programación y framework, incluidos PHP, Laravel, Javascript, React , Vue, .Net, con experiencia consolidada en SCRUM Developer Certified - SDC y gestión de proyectos.
+                                        Competente en numerosos lenguajes de programación y framework, incluidos PHP, Laravel, Javascript, React ,  Vue, .Net, con experiencia consolidada en SCRUM Developer Certified - SDC y gestión de proyectos.
                                         
                                         Fácil de trabajar en equipo, adaptable y dispuesto a aprovechar una próxima oportunidad desafiante.</p>
                                 </div>
@@ -370,202 +370,72 @@
                 </div>
             </div>
         </section>
-        <section id="portfolio" class="section pp-scrollable portfolio bg-dark" data-navigation-color="#fff" data-navigation-tooltip="PORTAFOLIO">
+        <!--   Resume End   -->
+
+        <!--   Contact Start   -->
+        <section id="contact" class="section pp-scrollable contact bg-dark" data-navigation-color="#fff" data-navigation-tooltip="CONTACTAME">
             <div class="display-table">
                 <div class="display-content">
                     <div class="container">
                         <div class="row">
                             <div class="title-small">
-                                <p class="text-dark">Portafolio</p>
+                                <p class="text-dark">CONCTACTAME</p>
                             </div>
                             <div class="col-lg-12">
                                 <div class="text-left">
-                                    <h2 class="text-dark"><span class="base-color">Portafolio</span></h2>
-                                    <p class="text-muted mx-auto section-subtitle mt-3">Trabajos realizados y/o participado.</p>
+                                    <h2 class="text-dark">A <span class="base-color">quí</span></h2>
+                                    <p class="text-muted mx-auto section-subtitle mt-3">No dudes en contactarme</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="row mt-4">
-                            <ul id="portfolio-filter" class="list-unstyled list-inline mb-0 col-lg-12 text-left portfolio-filter">
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter="*" class="active my-1">Todos</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter=".webdesign" class="my-1">Web</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter=".mobiledesign" class="my-1">Tienda Virtual</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter=".seo" class="my-1">Wordpress</a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#" data-filter=".graphic" class="my-1">Libre</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="portfolio-items mt-4 row">
-                            <div class="col-lg-4 portfolio-item my-3 seo">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.png" alt="Tienda Virtual de JoeBurguer">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="https://joesburguer.com/product" target="_blanck">
-                                                    <i class="lni-link"></i>
-                                                </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_joeburguer.png" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">JoeBurguer</h5>
-                                        </div>
+                        <!-- <div class="row mt-5">
+                            <div class="col-lg-12">
+                                <div id="my-map" data-location-lat="-9.121018941533201"  data-location-lng="-78.53201262380091" data-location-icon="https://developers.google.com/maps/images/maps-icon.svg"></div>
+                            </div>
+                        </div> -->
+                        <div class="row mt-5">
+                            <div class="col-lg-6 text-left">
+                                <div class="contact-form">
+                                    <h6 class="font-weight-semibold">Enviame un Mensaje </h6>
+                                    <p class="text-muted mt-3">Cualquier duda y/o consulta estoy a tu disposicion</p>
+                                    <div class="mt-4">
+                                        <p class="mt-2 font-weight-bold"> Direccion : <span class="text-muted"> Nuevo Chimbote, Perú </span></p>
+                                        <p class="mt-2 font-weight-bold"> Celular : <span class="text-muted"> +51 920 200 067</span></p>
+                                        <p class="mt-2 font-weight-bold"> Correo : <span class="text-muted">info@devmarcoestrada.com </span></p>
+                                        <p class="mt-2 font-weight-bold"> Web : <span class="text-muted">https://devmarcoestrada.com</span></p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 portfolio-item my-3 graphic">
-                                <div class="portfolio-item-content rounded">
-                                <img src="https://devmarcoestrada.com/assets/proyectos/wordpress_brandfood.PNG" alt="Landing Page de Brandfood">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="https://brandfood.com.pe/" target="_blanck">
-                                                    <i class="lni-link"></i>
-                                                </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/wordpress_brandfood.PNG" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
+                            <div class="col-lg-6 text-left">
+                                <h6 class="font-weight-semibold">¿ Cómo puedo ayudarte ? </h6>
+                                <form id="contactForm" class="form mt-3">
+                                    <div class="row">
+                                        <div class="col-lg-12 form-item">
+                                            <div class="form-group">
+                                                <input name="name" id="name" type="text" class="form-control" data-name-error="Tu Nombre es solicitado" placeholder="Ingrese un Nombre" required >
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">BrandFood</h5>
+                                        </div>
+                                        <div class="col-lg-12 form-item">
+                                            <div class="form-group">
+                                                <input name="email" id="email" type="email" class="form-control" data-email-error="Correo es solicitado" data-email-valid="Correo no valido" placeholder="Ingrese un correo" required >
+                                            </div>
+                                        </div>
+                                        <div class="col-12 form-item">
+                                            <div class="form-group">
+                                                <textarea name="comments" id="comments" rows="2" class="form-control h-auto" data-comment-error="Mensaje es solicitado" placeholder="Escribeme un mensaje"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 mt-1 text-left">
+                                            <button type="button" class="pill-button" id="submit-btn" onclick="sendEmail()">Enviar Mensaje</button>
+                                            <div id="message" class="toast text-white shadow-none border-0" role="alert" aria-live="assertive" aria-atomic="true" data-delay="4000" >
+                                                <div class="toast-body d-inline-block"></div>
+                                                <button type="button" class="pr-3 close" data-dismiss="toast" aria-label="Close">
+                                                    <span aria-hidden="true" class="lni-close size-xs text-white"></span>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 portfolio-item my-3 webdesign graphic">
-                                <div class="portfolio-item-content rounded">
-                                <img src="https://devmarcoestrada.com/assets/proyectos/wordpress_casascruz.PNG" alt="Landing Page de Casas Cruz">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="https://www.casascruz.com/" target="_blanck">
-                                                    <i class="lni-link"></i>
-                                                </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/wordpress_casascruz.PNG" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Casas Cruz</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 portfolio-item my-3 webdesign">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_taglio.PNG" alt="Tienda Virtual Taglio">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="http://taglio.daleclick.pe/taglio/carta" target="_blanck">
-                                                    <i class="lni-link"></i>
-                                                </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_taglio.PNG" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Taglio</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 portfolio-item my-3 mobiledesign seo">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="https://devmarcoestrada.com/assets/proyectos/web_tecnolaw.PNG" alt="Landing Page Tecnolaw">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="https://tecnolaw.com/" target="_blanck">
-                                                    <i class="lni-link"></i>
-                                                </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/web_tecnolaw.PNG" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Tecnolaw</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 portfolio-item my-3 webdesign seo">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_jugueteria.PNG" alt="Tienda Virtual Jugueteria Camps">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="https://jugueteriacamps.com/" target="_blanck">
-                                                    <i class="lni-link"></i>
-                                                </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_jugueteria.PNG" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Jugueteria Camps</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 portfolio-item my-3 mobiledesign">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="https://devmarcoestrada.com/assets/proyectos/wordpress_costabella.PNG" alt="Landing Page Costabella">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="https://hotelcostabela.com/" target="_blanck">
-                                                    <i class="lni-link"></i>
-                                                </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/wordpress_costabella.PNG" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Costabella</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
-                                <div class="portfolio-item-content rounded">
-                                    <img src="https://devmarcoestrada.com/assets/proyectos/web_marcoestrada.PNG" alt="Pagina Web de Marco Estrada">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="https://devmarcoestrada.com/" target="_blanck">
-                                                    <i class="lni-link"></i>
-                                                </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/web_marcoestrada.PNG" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Marco Estrada</h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 portfolio-item my-3 mobiledesign webdesign">
-                                <div class="portfolio-item-content rounded">    
-                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_bipolar.PNG" alt="Pagina Web de Bipolar">
-                                    <div class="img-overlay text-center">
-                                        <div class="img-overlay-content">
-                                            <div class="portfolio-icon">
-                                                <a href="https://www.bipolar.com.pe" target="_blanck">
-                                                    <i class="lni-link"></i>
-                                                </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_bipolar.PNG" class="js-zoom-gallery">
-                                                    <i class="lni-search"></i>
-                                                </a>
-                                            </div>
-                                            <h5 class="text-white mt-3 mb-0">Bipolar</h5>
-                                        </div>
-                                    </div>
-                                </div>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -573,8 +443,10 @@
             </div>
         </section>
     </div>
-    <script src="assets/js/jquery-3.4.1.min.js"></script>
     
+    <!--  JavaScripts  -->
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+    <!--   Page Pilling Js     -->
     <script src="assets/js/jquery.pagepiling.js"></script>
     <!--  Bootstrap Js  -->
     <script src="assets/js/bootstrap.js"></script>
