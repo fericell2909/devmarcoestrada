@@ -966,6 +966,15 @@
         <!--   Color Scheme  -->
         <a class="color-scheme text-white bg-base-color d-inline-block" href="javascript:void(0)"><i class="lni-sun"></i></a>
 
+        <a class="color-scheme-2 text-white bg-base-color d-inline-block" 
+            href="javascript:void(0)" style="position: fixed;
+                z-index: 999;
+                right: 31px;
+                top: 120px;
+                padding: .5rem .75rem;
+                border-radius: 50%;
+                -webkit-transition: all 0.5s ease;
+                transition: all 0.5s ease;"><img src="/peru.png" alt=""></a>
     </div>
     <!--  Page Pilling  End -->
 
