@@ -441,12 +441,12 @@
                                     <div class="skillbar clearfix" data-percent="75%">
                                         <div class="skillbar-title"><span>JavaScript - Vue.js - React.js</span></div>
                                         <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">75%</div>
+                                        <div class="skill-bar-percent">100%</div>
                                     </div>
                                     <div class="skillbar clearfix" data-percent="80%">
                                         <div class="skillbar-title"><span>GraphQL</span></div>
                                         <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">80%</div>
+                                        <div class="skill-bar-percent">100%</div>
                                     </div>
                                 </div>
                             </div>
@@ -455,22 +455,22 @@
                                     <div class="skillbar clearfix" data-percent="95%">
                                         <div class="skillbar-title"><span>PostgreSQL - MySQL - SQL Server - Oracle</span></div>
                                         <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">95%</div>
+                                        <div class="skill-bar-percent">100%</div>
                                     </div>
                                     <div class="skillbar clearfix " data-percent="85%">
                                         <div class="skillbar-title"><span>Git - Subversion - Team Foundation Server</span></div>
                                         <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">85%</div>
+                                        <div class="skill-bar-percent">100%</div>
                                     </div>
                                     <div class="skillbar clearfix" data-percent="75%">
                                         <div class="skillbar-title"><span>Scrum Developer Certified - SDC</span></div>
                                         <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">75%</div>
+                                        <div class="skill-bar-percent">100%</div>
                                     </div>
                                     <div class="skillbar clearfix" data-percent="80%">
                                         <div class="skillbar-title"><span>Wordpress</span></div>
                                         <div class="skillbar-bar"></div>
-                                        <div class="skill-bar-percent">80%</div>
+                                        <div class="skill-bar-percent">100%</div>
                                     </div>
                                 </div>
                             </div>
