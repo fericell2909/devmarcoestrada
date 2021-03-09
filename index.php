@@ -417,9 +417,9 @@
                             <div class="col-lg-12">
                                 <div class="text-left">
                                     <h2 class="text-dark mb-3">Mi <span class="base-color">Resumen</span></h2>
-                                    <p class="text-muted">Desarrollador Web Senior con más de 11 años de experiencia especializada en el desarrollo back-end. Capacitado profesionalmente para trabajar bajo presión acorde con las metas y objetivos definidos por el usuario, y enfocado en alcanzar la entrega a tiempo, considerando todas las etapas del ciclo de desarrollo para proyectos web dinámicos.
+                                    <p class="text-muted">Desarrollador Web Senior con más de 12 años de experiencia especializada en el desarrollo back-end. Capacitado profesionalmente para trabajar bajo presión acorde con las metas y objetivos definidos por el usuario, y enfocado en alcanzar la entrega a tiempo, considerando todas las etapas del ciclo de desarrollo para proyectos web dinámicos.
 
-                                        Competente en numerosos lenguajes de programación y framework, incluidos PHP, Laravel, Javascript, Vue.js, .Net, con experiencia consolidada en SCRUM Developer Certified - SDC y gestión de proyectos.
+                                        Competente en numerosos lenguajes de programación y framework, incluidos PHP, Laravel, Javascript, Vue.js, React.js , .Net, con experiencia consolidada en SCRUM Developer Certified - SDC y gestión de proyectos.
                                         
                                         Fácil de trabajar en equipo, adaptable y dispuesto a aprovechar una próxima oportunidad desafiante.</p>
                                 </div>
