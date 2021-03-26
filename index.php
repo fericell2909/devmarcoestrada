@@ -496,7 +496,12 @@
                                 <ul class="timeline">
                                     <li>
                                         <h6 class="base-color mb-0">Desarrollador Web Full Stack Remoto</h6>
-                                        <small class="text-muted ">2020 - Hoy</small>
+                                        <small class="text-muted ">Enero 2021 - Hoy</small>
+                                        <p class="text-dark py-3">Gux</p>
+                                    </li>
+                                    <li>
+                                        <h6 class="base-color mb-0">Desarrollador Web Full Stack Remoto</h6>
+                                        <small class="text-muted ">Julio 2020 - Dic.2020</small>
                                         <p class="text-dark py-3">Brandfood</p>
                                     </li>
                                     <li>
@@ -646,18 +651,18 @@
                             </div>
                             <div class="col-lg-4 portfolio-item my-3 webdesign seo">
                                 <div class="portfolio-item-content rounded">
-                                    <img src="https://devmarcoestrada.com/assets/proyectos/tienda_jugueteria.PNG" alt="Tienda Virtual Jugueteria Camps">
+                                    <img src="https://devmarcoestrada.com/assets/proyectos/web_consultorio.png" alt="Web Corporativa de Consultorio y Reserva de Citas">
                                     <div class="img-overlay text-center">
                                         <div class="img-overlay-content">
                                             <div class="portfolio-icon">
-                                                <a href="https://jugueteriacamps.com/" target="_blanck">
+                                                <a href="https://consultoriosgarcia.com/" target="_blanck">
                                                     <i class="lni-link"></i>
                                                 </a>
-                                                <a href="https://devmarcoestrada.com/assets/proyectos/tienda_jugueteria.PNG" class="js-zoom-gallery">
+                                                <a href="https://devmarcoestrada.com/assets/proyectos/web_consultorio.png" class="js-zoom-gallery">
                                                     <i class="lni-search"></i>
                                                 </a>
                                             </div>
-                                            <h5 class="text-white mt-3 mb-0">Jugueteria Camps</h5>
+                                            <h5 class="text-white mt-3 mb-0">Consultorio García</h5>
                                         </div>
                                     </div>
                                 </div>
