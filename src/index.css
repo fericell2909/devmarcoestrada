@@ -180,6 +180,19 @@ ul, ol { list-style: none; }
 .form__textarea { resize: vertical; min-height: 120px; }
 .footer { text-align: center; padding: 1.5rem 0 1rem; font-size: 0.82rem; color: var(--text-3); border-top: 1px solid var(--border); margin-top: 2rem; }
 
+/* NOT FOUND */
+.not-found { position: relative; min-height: 100svh; display: flex; align-items: center; justify-content: center; text-align: center; padding: 2rem; overflow: hidden; }
+.not-found__bg { position: absolute; inset: 0; pointer-events: none; }
+.not-found__grid { position: absolute; inset: 0; background-image: linear-gradient(var(--border) 1px, transparent 1px), linear-gradient(90deg, var(--border) 1px, transparent 1px); background-size: 48px 48px; mask-image: radial-gradient(ellipse 70% 50% at 50% 50%, black 20%, transparent 100%); }
+.not-found__orb { position: absolute; border-radius: 50%; filter: blur(80px); }
+.not-found__orb--1 { width: 420px; height: 420px; top: 15%; left: 50%; transform: translateX(-50%); background: radial-gradient(circle, rgba(200,96,42,0.16) 0%, transparent 70%); }
+.not-found__orb--2 { width: 260px; height: 260px; bottom: 10%; right: 10%; background: radial-gradient(circle, rgba(120,80,200,0.06) 0%, transparent 70%); }
+.not-found__content { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 1rem; max-width: 520px; }
+.not-found__code { font-family: var(--font-serif); font-size: clamp(6rem, 18vw, 10rem); font-weight: 400; line-height: 1; color: var(--accent); opacity: 0.18; letter-spacing: -0.04em; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -70%); pointer-events: none; user-select: none; }
+.not-found__title { font-family: var(--font-serif); font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 400; color: var(--text); line-height: 1.15; }
+.not-found__text { font-size: 0.95rem; color: var(--text-2); max-width: 400px; line-height: 1.7; }
+.not-found__actions { display: flex; flex-wrap: wrap; gap: 0.6rem; justify-content: center; margin-top: 0.5rem; }
+
 /* WHATSAPP */
 .whatsapp-btn { position: fixed; bottom: 2rem; right: 2rem; z-index: 90; display: flex; align-items: center; justify-content: center; width: 52px; height: 52px; border-radius: 50%; background: #25d366; color: #fff; box-shadow: 0 4px 20px rgba(37,211,102,0.4); transition: var(--transition); }
 .whatsapp-btn:hover { transform: scale(1.1); box-shadow: 0 6px 28px rgba(37,211,102,0.55); }

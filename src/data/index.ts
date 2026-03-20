@@ -9,20 +9,21 @@ export const NAV_ITEMS: NavItem[] = [
 ];
 
 export const SKILLS: Skill[] = [
-  { name: 'PHP / Laravel', level: 95, category: 'backend' },
-  { name: 'C# / ASP.NET MVC', level: 85, category: 'backend' },
-  { name: 'JavaScript / TypeScript', level: 90, category: 'frontend' },
-  { name: 'React.js', level: 90, category: 'frontend' },
-  { name: 'Vue.js', level: 85, category: 'frontend' },
-  { name: 'Node.js', level: 75, category: 'backend' },
-  { name: 'GraphQL', level: 80, category: 'backend' },
-  { name: 'Python', level: 70, category: 'backend' },
-  { name: 'PostgreSQL / MySQL', level: 95, category: 'database' },
-  { name: 'SQL Server / Oracle', level: 85, category: 'database' },
-  { name: 'AWS', level: 80, category: 'tools' },
-  { name: 'Docker', level: 70, category: 'tools' },
-  { name: 'Git / Subversion', level: 90, category: 'tools' },
-  { name: 'Scrum / Agile', level: 95, category: 'tools' },
+  { name: 'PHP / Laravel', level: 100, category: 'backend' },
+  { name: 'C# / ASP.NET MVC', level: 100, category: 'backend' },
+  { name: 'JavaScript / TypeScript', level: 100, category: 'frontend' },
+  { name: 'React.js', level: 100, category: 'frontend' },
+  { name: 'Vue.js', level: 100, category: 'frontend' },
+  { name: 'Node.js', level: 100, category: 'backend' },
+  { name: 'GraphQL', level: 100, category: 'backend' },
+  { name: 'Python / Django / Flask', level: 100, category: 'backend' },
+  { name: 'PostgreSQL / MySQL', level: 100, category: 'database' },
+  { name: 'SQL Server / Oracle', level: 100, category: 'database' },
+  { name: 'AWS', level: 100, category: 'tools' },
+  { name: 'Docker', level: 100, category: 'tools' },
+  { name: 'Git / Subversion / Github / Gitlab', level: 100, category: 'tools' },
+  { name: 'Scrum / Agile', level: 100, category: 'tools' },
+  { name: 'CI / CD', level: 100, category: 'tools' },
 ];
 
 export const EXPERIENCES: Experience[] = [
@@ -31,21 +32,21 @@ export const EXPERIENCES: Experience[] = [
     company: 'GUX Tech',
     period: 'Enero 2021 – Presente',
     description: 'Desarrollo de soluciones web escalables para clientes internacionales. Liderazgo en proyectos FullStack y despliegue en AWS. Integración con APIs externas y servicios cloud AWS.',
-    tech: ['React', 'Laravel', 'AWS', 'PostgreSQL'],
+    tech: ['Django', 'Laravel', 'React','Rails','AWS', 'PostgreSQL'],
   },
   {
     role: 'Full Stack Developer Remote',
     company: 'Brandfood',
     period: 'Julio 2020 – Diciembre 2020',
     description: 'Desarrollo y mantenimiento de plataforma e-commerce. Implementación de módulos de pago y gestión de inventario.',
-    tech: ['PHP', 'Vue.js', 'MySQL'],
+    tech: ['Node.js', 'Vue.js', 'MySQL'],
   },
   {
     role: 'Senior Software Developer',
     company: 'Uladech Católica',
     period: '2018 – 2020',
     description: 'Desarrollo de sistemas de gestión académica y administrativa. Liderazgo de equipo de 5 desarrolladores.',
-    tech: ['C#', '.NET', 'SQL Server', 'JavaScript'],
+    tech: ['PHP','C#', '.NET', 'SQL Server', 'JavaScript'],
   },
 ];
 
