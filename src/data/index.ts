@@ -30,7 +30,7 @@ export const EXPERIENCES: Experience[] = [
     role: 'Full Stack Developer Remote',
     company: 'GUX Tech',
     period: 'Enero 2021 – Presente',
-    description: 'Desarrollo de soluciones web escalables para clientes internacionales. Liderazgo técnico en proyectos React/Laravel. Integración con APIs externas y servicios cloud AWS.',
+    description: 'Desarrollo de soluciones web escalables para clientes internacionales. Liderazgo en proyectos FullStack y despliegue en AWS. Integración con APIs externas y servicios cloud AWS.',
     tech: ['React', 'Laravel', 'AWS', 'PostgreSQL'],
   },
   {
