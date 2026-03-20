@@ -80,7 +80,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Hotel Costabella',
     description: 'Landing page y sistema de reservas para hotel boutique.',
-    image: 'https://fericell2909.github.io/devmarcoestrada/assets/proyectos/wordpress_costabella.PNG',
+    image: 'https://amzn-s3-files-public.s3.us-east-1.amazonaws.com/hotelcostabella.png',
     url: 'https://hotelcostabela.com/',
     tags: ['WordPress', 'PHP'],
     category: 'wordpress',
@@ -88,7 +88,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Bipolar',
     description: 'Tienda virtual e-commerce con gestión de catálogo y pagos.',
-    image: 'https://fericell2909.github.io/devmarcoestrada/assets/proyectos/tienda_bipolar.PNG',
+    image: 'https://amzn-s3-files-public.s3.us-east-1.amazonaws.com/bipolar.png',
     url: 'https://www.bipolar.com.pe',
     tags: ['E-commerce', 'PHP'],
     category: 'ecommerce',
@@ -96,7 +96,7 @@ export const PROJECTS: Project[] = [
   {
     title: 'Dev Marco Estrada',
     description: 'Portfolio personal con diseño oscuro y animaciones CSS.',
-    image: 'https://fericell2909.github.io/devmarcoestrada/assets/proyectos/web_marcoestrada.PNG',
+    image: 'https://amzn-s3-files-public.s3.us-east-1.amazonaws.com/devmarcoestrada.png',
     url: 'https://devmarcoestrada.com/',
     tags: ['HTML', 'CSS', 'JS'],
     category: 'web',
