@@ -4,9 +4,9 @@ import { CONTACT_INFO } from '../data';
 
 const ROLES = [
   'Full Stack Developer',
-  'AWS Cloud Practitioner',
-  'Scrum Developer Certified',
-  'React & PHP Specialist',
+  'AWS Lover',
+  'CI/CD Enthusiast',
+  'FrontEnd & BackeEnd Specialist',
 ];
 
 export default function Hero() {
