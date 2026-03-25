@@ -1,23 +1,24 @@
 import { useState } from 'react';
 import { ExternalLink } from 'lucide-react';
-import { PROJECTS } from '../data';
 import { useInView } from '../hooks/useInView';
-
-const FILTERS = [
-  { label: 'Todos', value: 'all' },
-  { label: 'Web', value: 'web' },
-  { label: 'E-commerce', value: 'ecommerce' },
-  { label: 'WordPress', value: 'wordpress' },
-];
+import { useLanguage } from '../hooks/useLanguage';
 
 export default function Portfolio() {
   const [activeFilter, setActiveFilter] = useState('all');
   const { ref, inView } = useInView();
+  const { t, projects } = useLanguage();
+
+  const FILTERS = [
+    { label: t.portfolio.filterAll, value: 'all' },
+    { label: t.portfolio.filterWeb, value: 'web' },
+    { label: t.portfolio.filterEcommerce, value: 'ecommerce' },
+    { label: t.portfolio.filterWordpress, value: 'wordpress' },
+  ];
 
   const filtered =
     activeFilter === 'all'
-      ? PROJECTS
-      : PROJECTS.filter((p) => p.category === activeFilter);
+      ? projects
+      : projects.filter((p) => p.category === activeFilter);
 
   return (
     <section
@@ -28,13 +29,13 @@ export default function Portfolio() {
     >
       <div className="container">
         <div className="section__header">
-          <span className="section__tag">03. Portafolio</span>
+          <span className="section__tag">{t.portfolio.tag}</span>
           <h2 id="portfolio-heading" className="section__title">
-            Trabajos <span className="accent">realizados</span>
+            {t.portfolio.title} <span className="accent">{t.portfolio.titleAccent}</span>
           </h2>
         </div>
 
-        <div className="portfolio__filters" role="group" aria-label="Filtros de portafolio">
+        <div className="portfolio__filters" role="group" aria-label={t.portfolio.filtersLabel}>
           {FILTERS.map((f) => (
             <button
               key={f.value}
@@ -56,7 +57,7 @@ export default function Portfolio() {
               <div className="project-card__image-wrap">
                 <img
                   src={project.image}
-                  alt={`Captura de ${project.title}`}
+                  alt={`${t.portfolio.screenshotOf} ${project.title}`}
                   className="project-card__image"
                   loading="lazy"
                 />
@@ -66,10 +67,10 @@ export default function Portfolio() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="project-card__link"
-                    aria-label={`Ver ${project.title}`}
+                    aria-label={`${t.portfolio.viewProject} ${project.title}`}
                   >
                     <ExternalLink size={20} />
-                    Ver proyecto
+                    {t.portfolio.viewProject}
                   </a>
                 </div>
               </div>

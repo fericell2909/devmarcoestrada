@@ -1,8 +1,14 @@
 import { MapPin, Mail, Phone, Download, Calendar } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
+import { useLanguage } from '../hooks/useLanguage';
 
 export default function About() {
   const { ref, inView } = useInView();
+  const { t, locale } = useLanguage();
+
+  const cvUrl = locale === 'en'
+    ? 'https://amzn-s3-files-public.s3.us-east-1.amazonaws.com/cv_marco_estrada_lopez_2026_spanish.pdf'
+    : 'https://amzn-s3-files-public.s3.us-east-1.amazonaws.com/cv_marco_estrada_lopez_2026_spanish.pdf';
 
   return (
     <section
@@ -13,9 +19,9 @@ export default function About() {
     >
       <div className="container">
         <div className="section__header">
-          <span className="section__tag">01. Sobre mí</span>
+          <span className="section__tag">{t.about.tag}</span>
           <h2 id="about-heading" className="section__title">
-            Quién <span className="accent">soy</span>
+            {t.about.title} <span className="accent">{t.about.titleAccent}</span>
           </h2>
         </div>
 
@@ -28,22 +34,18 @@ export default function About() {
             />
             <div className="about__image-frame" aria-hidden="true" />
             <div className="about__image-tag">
-              <span>🇵🇪 Nuevo Chimbote, Perú</span>
+              <span>{t.about.locationTag}</span>
             </div>
           </div>
 
           <div className="about__content">
-            <p className="about__description">
-              Desarrollador Full Stack Senior con más de 15 años transformando ideas en productos digitales. Domino el ciclo completo de desarrollo — desde frontends con React, Vue.js y TypeScript hasta backends robustos con Laravel, Django, .NET y Node.js. Diseño e implemento arquitecturas cloud en AWS con Lambda, API Gateway, pipelines CI/CD, contenedores Docker y bases de datos relacionales (PostgreSQL, MySQL, SQL Server, Oracle). Certificado AWS Cloud Practitioner y Scrum Developer, con maestría en Gestión de TI y experiencia liderando equipos en entornos ágiles para clientes internacionales.
-            </p>
-            <p className="about__description">
-              Fácil de trabajar en equipo, adaptable y siempre buscando el siguiente reto desafiante.
-            </p>
+            <p className="about__description">{t.about.description1}</p>
+            <p className="about__description">{t.about.description2}</p>
 
             <ul className="about__info">
               <li>
                 <Calendar size={14} />
-                <span>29 de Septiembre, 1987</span>
+                <span>{t.about.birthDate}</span>
               </li>
               <li>
                 <MapPin size={14} />
@@ -61,16 +63,16 @@ export default function About() {
 
             <div className="about__actions">
               <a
-                href="https://amzn-s3-files-public.s3.us-east-1.amazonaws.com/cv_marco_estrada_lopez_2026_spanish.pdf"
-                target='_blank'
-                rel='noopener noreferrer'
+                href={cvUrl}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn--primary"
               >
                 <Download size={16} />
-                Descargar CV
+                {t.about.downloadCv}
               </a>
               <a href="#contact" className="btn btn--outline">
-                Contáctame
+                {t.about.contactMe}
               </a>
             </div>
           </div>
