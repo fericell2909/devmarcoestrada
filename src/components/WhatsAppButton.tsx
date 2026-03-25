@@ -1,14 +1,16 @@
 import { MessageCircle } from 'lucide-react';
-import { CONTACT_INFO } from '../data';
+import { useLanguage } from '../hooks/useLanguage';
 
 export default function WhatsAppButton() {
+  const { t, contactInfo } = useLanguage();
+
   return (
     <a
-      href={CONTACT_INFO.whatsapp}
+      href={contactInfo.whatsapp}
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-btn"
-      aria-label="Contactar por WhatsApp"
+      aria-label={t.whatsapp.ariaLabel}
     >
       <MessageCircle size={26} />
     </a>
