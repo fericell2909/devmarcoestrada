@@ -1,12 +1,14 @@
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Sun, Moon } from 'lucide-react';
 import { NAV_ITEMS } from '../data';
 import { useActiveSection } from '../hooks/useInView';
+import { useTheme } from '../hooks/useTheme';
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const active = useActiveSection();
+  const { theme, toggleTheme } = useTheme();
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 40);
@@ -41,14 +43,24 @@ export default function Navbar() {
         ))}
       </nav>
 
-      <button
-        className="navbar__toggle"
-        onClick={() => setOpen(!open)}
-        aria-label={open ? 'Cerrar menú' : 'Abrir menú'}
-        aria-expanded={open}
-      >
-        {open ? <X size={22} /> : <Menu size={22} />}
-      </button>
+      <div className="navbar__actions">
+        <button
+          className="navbar__theme-toggle"
+          onClick={toggleTheme}
+          aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+        >
+          {theme === 'dark' ? <Sun size={16} /> : <Moon size={16} />}
+        </button>
+
+        <button
+          className="navbar__toggle"
+          onClick={() => setOpen(!open)}
+          aria-label={open ? 'Cerrar menú' : 'Abrir menú'}
+          aria-expanded={open}
+        >
+          {open ? <X size={22} /> : <Menu size={22} />}
+        </button>
+      </div>
 
       {open && (
         <nav className="navbar__mobile" aria-label="Navegación móvil">
