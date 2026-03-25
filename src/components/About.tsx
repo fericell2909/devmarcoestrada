@@ -34,13 +34,9 @@ export default function About() {
 
           <div className="about__content">
             <p className="about__description">
-              Desarrollador Web Senior con más de <strong>15 años de experiencia</strong> en backend y frontend. 
-              Especializado en construir aplicaciones web dinámicas con PHP/Laravel, React.js y .NET, 
-              con sólida experiencia en arquitecturas cloud con AWS.
+              Desarrollador Full Stack Senior con más de 15 años transformando ideas en productos digitales. Domino el ciclo completo de desarrollo — desde frontends con React, Vue.js y TypeScript hasta backends robustos con Laravel, Django, .NET y Node.js. Diseño e implemento arquitecturas cloud en AWS con Lambda, API Gateway, pipelines CI/CD, contenedores Docker y bases de datos relacionales (PostgreSQL, MySQL, SQL Server, Oracle). Certificado AWS Cloud Practitioner y Scrum Developer, con maestría en Gestión de TI y experiencia liderando equipos en entornos ágiles para clientes internacionales.
             </p>
             <p className="about__description">
-              Certificado como <strong>Scrum Developer</strong> y <strong>AWS Cloud Practitioner</strong>. 
-              Trabajo con equipos ágiles, enfocado siempre en la entrega a tiempo y la calidad del código. 
               Fácil de trabajar en equipo, adaptable y siempre buscando el siguiente reto desafiante.
             </p>
 
@@ -55,7 +51,7 @@ export default function About() {
               </li>
               <li>
                 <Mail size={14} />
-                <a href="mailto:fericell2909@gmail.com">fericell2909@gmail.com</a>
+                <a href="mailto:info@devmarcoestrada.com">info@devmarcoestrada.com</a>
               </li>
               <li>
                 <Phone size={14} />

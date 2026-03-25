@@ -1,73 +1,102 @@
-# React + TypeScript + Vite
+# devmarcoestrada.com
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfolio profesional de **Marco Estrada López** — Desarrollador Full Stack Senior con +15 años de experiencia.
 
-Currently, two official plugins are available:
+[![CI/CD](https://github.com/fericell2909/devmarcoestrada/actions/workflows/deploy.yml/badge.svg)](https://github.com/fericell2909/devmarcoestrada/actions/workflows/deploy.yml)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> **[devmarcoestrada.com](https://devmarcoestrada.com)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+| Capa | Tecnología |
+|------|-----------|
+| Framework | React 19 + TypeScript |
+| Bundler | Vite 8 |
+| Routing | React Router v7 |
+| Animaciones | Framer Motion |
+| Iconos | Lucide React |
+| Estilos | Vanilla CSS con BEM |
+| Hosting | AWS S3 + CloudFront |
+| CI/CD | GitHub Actions |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Inicio rápido
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+```bash
+# Clonar el repositorio
+git clone https://github.com/fericell2909/devmarcoestrada.git
+cd devmarcoestrada
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Instalar dependencias
+npm install
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Iniciar servidor de desarrollo (puerto 3000)
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Scripts disponibles
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+| Comando | Descripción |
+|---------|-------------|
+| `npm run dev` | Servidor de desarrollo con HMR en `localhost:3000` |
+| `npm run build` | Type-check con `tsc` + build de producción con Vite |
+| `npm run lint` | Ejecutar ESLint |
+| `npm run preview` | Preview del build de producción |
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Variables de entorno
+
+| Variable | Descripción |
+|----------|-------------|
+| `VITE_API_URL` | URL base de la API (con trailing slash) |
+
+**Archivos de entorno:**
+
+| Archivo | Uso |
+|---------|-----|
+| `.env` | Desarrollo local |
+| `.env.staging` | Build para staging (`vite build --mode staging`) |
+| `.env.production` | Build para producción |
+
+## Arquitectura
+
 ```
+src/
+├── components/       # Componentes de sección (Hero, About, Resume, Portfolio, Contact, etc.)
+├── pages/            # Páginas de ruta (Home, NotFound)
+├── hooks/            # Custom hooks (useInView)
+├── data/             # Datos estáticos (skills, experiencia, proyectos, contacto)
+├── types/            # Interfaces TypeScript
+├── index.css         # Design system completo (CSS custom properties + BEM)
+├── App.tsx           # Router principal
+└── main.tsx          # Entry point
+```
+
+## CI/CD & Ambientes
+
+### Producción
+- **Rama:** `main`
+- **Workflow:** `.github/workflows/deploy.yml`
+- **URL:** [devmarcoestrada.com](https://devmarcoestrada.com)
+- **API:** `https://api.devmarcoestrada.com/`
+
+### Staging
+- **Rama:** `staging`
+- **Workflow:** `.github/workflows/deploy-staging.yml`
+- **API:** `https://api-staging.devmarcoestrada.com/`
+- **robots.txt:** `Disallow: /` (no indexable por buscadores)
+
+### GitHub Secrets requeridos
+
+| Secret | Ambiente |
+|--------|----------|
+| `AWS_ACCESS_KEY_ID` | Ambos |
+| `AWS_SECRET_ACCESS_KEY` | Ambos |
+| `S3_BUCKET` | Producción |
+| `CLOUDFRONT_DISTRIBUTION_ID` | Producción |
+| `S3_BUCKET_STAGING` | Staging |
+| `CLOUDFRONT_DISTRIBUTION_ID_STAGING` | Staging |
+
+## Licencia
+
+Todos los derechos reservados © 2026 Marco Estrada López
