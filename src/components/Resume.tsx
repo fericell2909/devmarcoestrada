@@ -1,6 +1,7 @@
 import { Briefcase, GraduationCap, Award } from 'lucide-react';
-import { SKILLS, EXPERIENCES, EDUCATION, CERTIFICATIONS } from '../data';
+import { SKILLS, CERTIFICATIONS } from '../data';
 import { useInView } from '../hooks/useInView';
+import { useLanguage } from '../hooks/useLanguage';
 
 function SkillBar({ name, level, delay }: { name: string; level: number; delay: number }) {
   const { ref, inView } = useInView();
@@ -25,6 +26,7 @@ function SkillBar({ name, level, delay }: { name: string; level: number; delay: 
 
 export default function Resume() {
   const { ref, inView } = useInView();
+  const { t, experiences, education } = useLanguage();
   const frontend = SKILLS.filter((s) => s.category === 'frontend');
   const backend = SKILLS.filter((s) => s.category === 'backend');
   const data = SKILLS.filter((s) => s.category === 'database');
@@ -39,9 +41,9 @@ export default function Resume() {
     >
       <div className="container">
         <div className="section__header">
-          <span className="section__tag">02. Resumen</span>
+          <span className="section__tag">{t.resume.tag}</span>
           <h2 id="resume-heading" className="section__title">
-            Mi <span className="accent">experiencia</span>
+            {t.resume.title} <span className="accent">{t.resume.titleAccent}</span>
           </h2>
         </div>
 
@@ -51,10 +53,10 @@ export default function Resume() {
             <div className="resume__block">
               <h3 className="resume__block-title">
                 <Briefcase size={18} className="accent" />
-                Experiencia
+                {t.resume.experience}
               </h3>
               <ul className="timeline">
-                {EXPERIENCES.map((exp, i) => (
+                {experiences.map((exp, i) => (
                   <li key={i} className="timeline__item">
                     <div className="timeline__dot" />
                     <div className="timeline__content">
@@ -78,10 +80,10 @@ export default function Resume() {
             <div className="resume__block">
               <h3 className="resume__block-title">
                 <GraduationCap size={18} className="accent" />
-                Educación
+                {t.resume.education}
               </h3>
               <ul className="timeline">
-                {EDUCATION.map((edu, i) => (
+                {education.map((edu, i) => (
                   <li key={i} className="timeline__item">
                     <div className="timeline__dot" />
                     <div className="timeline__content">
@@ -97,7 +99,7 @@ export default function Resume() {
             <div className="resume__block">
               <h3 className="resume__block-title">
                 <Award size={18} className="accent" />
-                Certificaciones
+                {t.resume.certifications}
               </h3>
               <ul className="certs">
                 {CERTIFICATIONS.map((cert, i) => (
@@ -112,31 +114,31 @@ export default function Resume() {
 
           {/* Right — Skills */}
           <div className="resume__skills-col">
-            <h3 className="resume__block-title">Habilidades técnicas</h3>
+            <h3 className="resume__block-title">{t.resume.technicalSkills}</h3>
 
             <div className="skills-group">
-              <p className="skills-group__label">Frontend</p>
+              <p className="skills-group__label">{t.resume.frontend}</p>
               {frontend.map((s, i) => (
                 <SkillBar key={s.name} name={s.name} level={s.level} delay={i * 80} />
               ))}
             </div>
 
             <div className="skills-group">
-              <p className="skills-group__label">Backend</p>
+              <p className="skills-group__label">{t.resume.backend}</p>
               {backend.map((s, i) => (
                 <SkillBar key={s.name} name={s.name} level={s.level} delay={i * 80} />
               ))}
             </div>
 
             <div className="skills-group">
-              <p className="skills-group__label">Bases de datos</p>
+              <p className="skills-group__label">{t.resume.databases}</p>
               {data.map((s, i) => (
                 <SkillBar key={s.name} name={s.name} level={s.level} delay={i * 80} />
               ))}
             </div>
 
             <div className="skills-group">
-              <p className="skills-group__label">Cloud & Herramientas</p>
+              <p className="skills-group__label">{t.resume.cloudTools}</p>
               {tools.map((s, i) => (
                 <SkillBar key={s.name} name={s.name} level={s.level} delay={i * 80} />
               ))}

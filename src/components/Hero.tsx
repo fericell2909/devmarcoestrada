@@ -1,25 +1,20 @@
 import { useEffect, useRef } from 'react';
 import { Github, Linkedin, ChevronDown, MessageCircle } from 'lucide-react';
-import { CONTACT_INFO } from '../data';
-
-const ROLES = [
-  'Full Stack Developer',
-  'AWS Lover',
-  'CI/CD Enthusiast',
-  'FrontEnd & BackeEnd Specialist',
-];
+import { useLanguage } from '../hooks/useLanguage';
 
 export default function Hero() {
   const typedRef = useRef<HTMLSpanElement>(null);
+  const { t, locale, contactInfo } = useLanguage();
 
   useEffect(() => {
+    const roles = t.hero.roles;
     let roleIdx = 0;
     let charIdx = 0;
     let deleting = false;
     let timer: ReturnType<typeof setTimeout>;
 
     const type = () => {
-      const current = ROLES[roleIdx];
+      const current = roles[roleIdx];
       const el = typedRef.current;
       if (!el) return;
 
@@ -36,7 +31,7 @@ export default function Hero() {
         charIdx--;
         if (charIdx === 0) {
           deleting = false;
-          roleIdx = (roleIdx + 1) % ROLES.length;
+          roleIdx = (roleIdx + 1) % roles.length;
         }
       }
       timer = setTimeout(type, deleting ? 45 : 85);
@@ -44,14 +39,14 @@ export default function Hero() {
 
     timer = setTimeout(type, 600);
     return () => clearTimeout(timer);
-  }, []);
+  }, [locale, t.hero.roles]);
 
   const scroll = () => {
     document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
-    <section id="hero" className="hero" aria-label="Presentación">
+    <section id="hero" className="hero" aria-label={t.hero.presentation}>
       <div className="hero__bg" aria-hidden="true">
         <div className="hero__grid" />
         <div className="hero__orb hero__orb--1" />
@@ -62,7 +57,7 @@ export default function Hero() {
       <div className="hero__content">
         <div className="hero__badge">
           <span className="hero__badge-dot" />
-          Disponible para proyectos remotos
+          {t.hero.badge}
         </div>
 
         <div className="hero__avatar-wrap">
@@ -81,28 +76,25 @@ export default function Hero() {
         </h1>
 
         <p className="hero__role">
-          Un{' '}
+          {t.hero.rolePrefix}{' '}
           <span className="hero__typed accent" ref={typedRef} aria-live="polite" />
           <span className="hero__cursor" aria-hidden="true">|</span>
         </p>
 
-        <p className="hero__bio">
-          15+ años construyendo productos digitales robustos y escalables. 
-          Apasionado por el código limpio, arquitecturas sólidas y equipos que entregan valor real.
-        </p>
+        <p className="hero__bio">{t.hero.bio}</p>
 
         <div className="hero__actions">
           <a
-            href={CONTACT_INFO.whatsapp}
+            href={contactInfo.whatsapp}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn--primary"
           >
             <MessageCircle size={16} />
-            Hablemos
+            {t.hero.cta}
           </a>
           <a
-            href={CONTACT_INFO.github}
+            href={contactInfo.github}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn--ghost"
@@ -111,7 +103,7 @@ export default function Hero() {
             GitHub
           </a>
           <a
-            href={CONTACT_INFO.linkedin}
+            href={contactInfo.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn--ghost"
@@ -124,17 +116,17 @@ export default function Hero() {
         <div className="hero__stats">
           <div className="hero__stat">
             <span className="hero__stat-value">15+</span>
-            <span className="hero__stat-label">Años exp.</span>
+            <span className="hero__stat-label">{t.hero.statYears}</span>
           </div>
           <div className="hero__stat-divider" />
           <div className="hero__stat">
             <span className="hero__stat-value">106</span>
-            <span className="hero__stat-label">Repositorios</span>
+            <span className="hero__stat-label">{t.hero.statRepos}</span>
           </div>
           <div className="hero__stat-divider" />
           <div className="hero__stat">
             <span className="hero__stat-value">3</span>
-            <span className="hero__stat-label">Certificaciones</span>
+            <span className="hero__stat-label">{t.hero.statCerts}</span>
           </div>
         </div>
       </div>
@@ -142,7 +134,7 @@ export default function Hero() {
       <button
         className="hero__scroll"
         onClick={scroll}
-        aria-label="Scroll hacia abajo"
+        aria-label={t.hero.scrollLabel}
       >
         <ChevronDown size={20} />
       </button>
