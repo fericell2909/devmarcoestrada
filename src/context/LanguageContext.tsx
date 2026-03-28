@@ -24,7 +24,6 @@ export interface LanguageContextValue {
 }
 
 function getInitialLocale(): Locale {
-  if (typeof window === 'undefined') return 'es';
   const stored = localStorage.getItem('lang') as Locale | null;
   if (stored === 'es' || stored === 'en') return stored;
   return 'es';
