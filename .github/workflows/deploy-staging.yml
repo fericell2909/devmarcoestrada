@@ -165,7 +165,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Build de staging con Vite
+      # Build de staging con Vite (incluye pre-rendering con Puppeteer)
       - name: Build project
         run: npm run build
         env:
@@ -188,6 +188,10 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
 
+      # Eliminar prerender script (solo se usa en build time, no en produccion)
+      - name: Remove prerender artifacts
+        run: rm -f dist/assets/prerender-*.js dist/assets/prerender-*.js.map
+
       # Assets (JS/CSS/imagenes) — cache 1 ano
       - name: Deploy assets to S3 (cache 1 year)
         run: |
@@ -196,15 +200,22 @@ jobs:
             --exact-timestamps \
             --cache-control "public, max-age=31536000, immutable" \
             --exclude "index.html" \
+            --exclude "404/*" \
             --exclude "*.json" \
             --exclude "*.txt"
 
-      # index.html siempre sin cache
-      - name: Deploy index.html to S3 (no cache)
+      # HTML files sin cache — index.html y 404/index.html (pre-rendered)
+      - name: Deploy HTML files to S3 (no cache)
         run: |
           aws s3 cp dist/index.html s3://${{ secrets.S3_BUCKET_STAGING }}/index.html \
             --cache-control "no-cache, no-store, must-revalidate" \
             --content-type "text/html; charset=utf-8"
+          if [ -f "dist/404/index.html" ]; then
+            aws s3 cp dist/404/index.html s3://${{ secrets.S3_BUCKET_STAGING }}/404.html \
+              --cache-control "no-cache, no-store, must-revalidate" \
+              --content-type "text/html; charset=utf-8"
+            echo "Uploaded: 404.html (pre-rendered)"
+          fi
 
       # robots.txt y sitemap.xml sin cache
       - name: Deploy meta files to S3 (no cache)
