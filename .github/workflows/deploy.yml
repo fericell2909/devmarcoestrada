@@ -176,7 +176,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # Build de produccion con Vite (incluye pre-rendering con Puppeteer)
+      # Build de produccion con Vite
       - name: Build project
         run: npm run build
         env:
@@ -193,10 +193,6 @@ jobs:
 
       # Assets (JS/CSS/imagenes) — cache 1 ano
       # Vite les pone hash en el nombre, son inmutables, cache agresivo es seguro
-      # Eliminar prerender script (solo se usa en build time, no en produccion)
-      - name: Remove prerender artifacts
-        run: rm -f dist/assets/prerender-*.js dist/assets/prerender-*.js.map
-
       - name: Deploy assets to S3 (cache 1 year)
         run: |
           aws s3 sync dist/ s3://${{ secrets.S3_BUCKET }} \
@@ -204,22 +200,15 @@ jobs:
             --exact-timestamps \
             --cache-control "public, max-age=31536000, immutable" \
             --exclude "index.html" \
-            --exclude "404/*" \
             --exclude "*.json" \
             --exclude "*.txt"
 
-      # HTML files sin cache — index.html y 404/index.html (pre-rendered)
-      - name: Deploy HTML files to S3 (no cache)
+      # index.html siempre sin cache — referencia los assets con hash
+      - name: Deploy index.html to S3 (no cache)
         run: |
           aws s3 cp dist/index.html s3://${{ secrets.S3_BUCKET }}/index.html \
             --cache-control "no-cache, no-store, must-revalidate" \
             --content-type "text/html; charset=utf-8"
-          if [ -f "dist/404/index.html" ]; then
-            aws s3 cp dist/404/index.html s3://${{ secrets.S3_BUCKET }}/404.html \
-              --cache-control "no-cache, no-store, must-revalidate" \
-              --content-type "text/html; charset=utf-8"
-            echo "Uploaded: 404.html (pre-rendered)"
-          fi
 
       # robots.txt y sitemap.xml sin cache si existen
       - name: Deploy meta files to S3 (no cache)
