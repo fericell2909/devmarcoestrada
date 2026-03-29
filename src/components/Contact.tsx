@@ -1,30 +1,40 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
+import { useForm } from 'react-hook-form';
+import { zodResolver } from '@hookform/resolvers/zod';
 import { MapPin, Mail, Phone, Github, Linkedin, MessageCircle, Send } from 'lucide-react';
 import { useInView } from '../hooks/useInView';
 import { useLanguage } from '../hooks/useLanguage';
+import { createContactSchema, type ContactFormData } from '../schemas/contactSchema';
 
 export default function Contact() {
   const { ref, inView } = useInView();
-  const { t, contactInfo } = useLanguage();
-  const [formData, setFormData] = useState({ name: '', email: '', message: '' });
+  const { t, contactInfo, locale } = useLanguage();
   const [status, setStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
+  const schema = useMemo(() => createContactSchema(t), [t]);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
+  const {
+    register,
+    handleSubmit,
+    reset,
+    formState: { errors },
+  } = useForm<ContactFormData>({
+    resolver: zodResolver(schema),
+    mode: 'onTouched',
+    defaultValues: { name: '', email: '', message: '' },
+  });
+
+  const onSubmit = async (data: ContactFormData) => {
     setStatus('loading');
     try {
       const res = await fetch(`${import.meta.env.VITE_API_URL}contact`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
+        body: JSON.stringify(data),
       });
       if (!res.ok) throw new Error();
       setStatus('success');
-      setFormData({ name: '', email: '', message: '' });
+      reset();
     } catch {
       setStatus('error');
     }
@@ -76,44 +86,50 @@ export default function Contact() {
             </div>
           </div>
 
-          <form className="contact__form" onSubmit={handleSubmit}>
+          <form key={locale} className="contact__form" onSubmit={handleSubmit(onSubmit)}>
             <div className="form__group">
               <label className="form__label" htmlFor="contact-name">{t.contact.nameLabel}</label>
               <input
                 id="contact-name"
-                className="form__input"
+                className={`form__input${errors.name ? ' form__input--error' : ''}`}
                 type="text"
-                name="name"
-                required
                 placeholder={t.contact.namePlaceholder}
-                value={formData.name}
-                onChange={handleChange}
+                {...register('name')}
               />
+              {errors.name && (
+                <p className="form__feedback form__feedback--error" role="alert">
+                  {errors.name.message}
+                </p>
+              )}
             </div>
             <div className="form__group">
               <label className="form__label" htmlFor="contact-email">{t.contact.emailLabel}</label>
               <input
                 id="contact-email"
-                className="form__input"
+                className={`form__input${errors.email ? ' form__input--error' : ''}`}
                 type="email"
-                name="email"
-                required
                 placeholder={t.contact.emailPlaceholder}
-                value={formData.email}
-                onChange={handleChange}
+                {...register('email')}
               />
+              {errors.email && (
+                <p className="form__feedback form__feedback--error" role="alert">
+                  {errors.email.message}
+                </p>
+              )}
             </div>
             <div className="form__group">
               <label className="form__label" htmlFor="contact-message">{t.contact.messageLabel}</label>
               <textarea
                 id="contact-message"
-                className="form__input form__textarea"
-                name="message"
-                required
+                className={`form__input form__textarea${errors.message ? ' form__input--error' : ''}`}
                 placeholder={t.contact.messagePlaceholder}
-                value={formData.message}
-                onChange={handleChange}
+                {...register('message')}
               />
+              {errors.message && (
+                <p className="form__feedback form__feedback--error" role="alert">
+                  {errors.message.message}
+                </p>
+              )}
             </div>
             <button
               type="submit"
