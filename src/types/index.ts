@@ -113,6 +113,17 @@ export interface Translations {
     success: string;
     error: string;
     footer: string;
+    validation: {
+      nameMin: string;
+      nameMax: string;
+      nameLettersOnly: string;
+      nameProfanity: string;
+      emailInvalid: string;
+      messageMin: string;
+      messageMax: string;
+      messageCreditCard: string;
+      messageProfanity: string;
+    };
   };
   notFound: {
     title: string;
