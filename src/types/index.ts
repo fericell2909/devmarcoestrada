@@ -119,6 +119,8 @@ export interface Translations {
       nameLettersOnly: string;
       nameProfanity: string;
       emailInvalid: string;
+      emailProfanity: string;
+      emailDisposable: string;
       messageMin: string;
       messageMax: string;
       messageCreditCard: string;
