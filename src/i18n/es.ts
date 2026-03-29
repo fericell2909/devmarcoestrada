@@ -73,6 +73,17 @@ export const es: Translations = {
     success: 'Mensaje enviado. Te responderé pronto.',
     error: 'Hubo un error. Intenta de nuevo o contáctame por WhatsApp.',
     footer: 'Hecho con',
+    validation: {
+      nameMin: 'El nombre debe tener al menos 2 caracteres.',
+      nameMax: 'El nombre no puede exceder los 50 caracteres.',
+      nameLettersOnly: 'El nombre solo puede contener letras y espacios.',
+      nameProfanity: 'El nombre contiene contenido inapropiado.',
+      emailInvalid: 'Ingresa un email válido.',
+      messageMin: 'El mensaje debe tener al menos 10 caracteres.',
+      messageMax: 'El mensaje no puede exceder los 500 caracteres.',
+      messageCreditCard: 'Por favor, no incluyas números de tarjeta de crédito.',
+      messageProfanity: 'El mensaje contiene contenido inapropiado.',
+    },
   },
   notFound: {
     title: 'Página no',
