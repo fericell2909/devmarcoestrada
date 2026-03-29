@@ -79,6 +79,8 @@ export const en: Translations = {
       nameLettersOnly: 'Name can only contain letters and spaces.',
       nameProfanity: 'Name contains inappropriate content.',
       emailInvalid: 'Please enter a valid email address.',
+      emailProfanity: 'Email contains inappropriate content.',
+      emailDisposable: 'Disposable or temporary emails are not allowed.',
       messageMin: 'Message must be at least 10 characters.',
       messageMax: 'Message must be 500 characters or less.',
       messageCreditCard: 'Please do not include credit card numbers.',
