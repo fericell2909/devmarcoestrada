@@ -213,6 +213,8 @@ ul, ol { list-style: none; }
 .form__feedback { font-size: 0.85rem; text-align: center; margin-top: 0.5rem; }
 .form__feedback--success { color: #4caf72; }
 .form__feedback--error { color: var(--accent); }
+.form__group .form__feedback { text-align: left; margin-top: 0; }
+.form__input--error { border-color: var(--accent); }
 .footer { text-align: center; padding: 1.5rem 0 1rem; font-size: 0.82rem; color: var(--text-3); border-top: 1px solid var(--border); margin-top: 2rem; }
 
 /* NOT FOUND */
