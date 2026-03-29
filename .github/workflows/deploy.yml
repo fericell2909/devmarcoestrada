@@ -4,11 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    branches:
-      - main
-    types:
-      - closed  # solo cuando el PR se cierra (merge incluido)
 
 # Evita deploys paralelos — si hay uno en curso, cancela el anterior
 concurrency:
@@ -25,9 +20,7 @@ jobs:
     name: Lint & Format check
     runs-on: ubuntu-latest
 
-    if: |
-      github.event_name == 'push' ||
-      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+    if: github.event_name == 'push'
 
     # continue-on-error: true → el job puede fallar sin bloquear los siguientes
     continue-on-error: true
@@ -100,9 +93,7 @@ jobs:
     name: Unit Tests
     runs-on: ubuntu-latest
 
-    if: |
-      github.event_name == 'push' ||
-      (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
+    if: github.event_name == 'push'
 
     continue-on-error: true
 
@@ -157,11 +148,7 @@ jobs:
     needs: [lint, test]
 
     # always() asegura que corra aunque lint/test fallen
-    if: |
-      always() && (
-        github.event_name == 'push' ||
-        (github.event_name == 'pull_request' && github.event.pull_request.merged == true)
-      )
+    if: always()
 
     steps:
       - name: Checkout repository
