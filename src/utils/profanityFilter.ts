@@ -102,9 +102,9 @@ const extraEsWords = [
   'obsceno', 'obscena', 'vulgar', 'soez', 'inmundo', 'inmunda',
 ];
 
-const esWordSet = new Set<string>(
-  [...(esWords as string[]), ...extraEsWords].map((w) => w.toLowerCase())
-);
+const esWordList = [...(esWords as string[]), ...extraEsWords].map((w) => w.toLowerCase());
+const esWordSet = new Set<string>(esWordList);
+const esSubstringList = esWordList.filter((w) => w.length >= 4);
 
 function stripPunctuation(word: string): string {
   return word.replace(/[^a-záéíóúüñ]/gi, '');
@@ -127,17 +127,26 @@ function dedup(word: string): string {
   return word.replace(/(.)\1+/g, '$1');
 }
 
+function containsSubstring(text: string): boolean {
+  const normalized = text.toLowerCase();
+  return esSubstringList.some((badWord) => normalized.includes(badWord));
+}
+
 export function containsProfanity(text: string): boolean {
   if (enFilter.isProfane(text)) return true;
 
   const words = text.toLowerCase().split(/\s+/);
-  return words.some((word) => {
+  const exactMatch = words.some((word) => {
     const clean = stripPunctuation(word);
     if (esWordSet.has(clean)) return true;
     const leet = stripPunctuation(normalizeLeetSpeak(word));
     if (esWordSet.has(leet)) return true;
     const deduped = dedup(clean);
     if (esWordSet.has(deduped)) return true;
+    if (esWordSet.has(dedup(leet))) return true;
     return false;
   });
+  if (exactMatch) return true;
+
+  return containsSubstring(stripPunctuation(text));
 }
