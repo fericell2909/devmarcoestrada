@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
 import type { ReactNode } from 'react';
-import type { Locale, Translations, NavItem, Experience, Education, Project } from '../types';
+import type { Locale, Translations, NavItem, Experience, Education, Project, Service } from '../types';
 import { translations } from '../i18n';
 import { getLocalizedData } from '../data';
 import { LanguageContext } from './languageContextDef';
@@ -13,6 +13,7 @@ export interface LanguageContextValue {
   experiences: Experience[];
   education: Education[];
   projects: Project[];
+  services: Service[];
   contactInfo: {
     location: string;
     phone: string;
