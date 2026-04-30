@@ -30,6 +30,27 @@ export interface Project {
   url: string;
   tags: string[];
   category: string;
+  longDescription?: string;
+  screenshots?: string[];
+  repoUrl?: string;
+}
+
+export interface Service {
+  id: string;
+  icon: string;
+  title: string;
+  description: string;
+  tags: string[];
+}
+
+export interface Testimonial {
+  name: string;
+  role: string;
+  company?: string;
+  text: string;
+  textEn?: string;
+  avatar?: string;
+  linkedinUrl?: string;
 }
 
 export interface Certification {
@@ -85,6 +106,12 @@ export interface Translations {
     databases: string;
     cloudTools: string;
   };
+  services: {
+    tag: string;
+    title: string;
+    titleAccent: string;
+    cta: string;
+  };
   portfolio: {
     tag: string;
     title: string;
@@ -96,6 +123,16 @@ export interface Translations {
     viewProject: string;
     screenshotOf: string;
     filtersLabel: string;
+    closeModal: string;
+    visitSite: string;
+    viewRepo: string;
+    technologiesUsed: string;
+  };
+  testimonials: {
+    tag: string;
+    title: string;
+    titleAccent: string;
+    placeholder: string;
   };
   contact: {
     tag: string;
