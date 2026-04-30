@@ -1,6 +1,6 @@
-import type { Skill, Certification, Locale } from '../types';
-import { NAV_ITEMS_ES, EXPERIENCES_ES, EDUCATION_ES, PROJECTS_ES } from './es';
-import { NAV_ITEMS_EN, EXPERIENCES_EN, EDUCATION_EN, PROJECTS_EN } from './en';
+import type { Skill, Certification, Locale, Testimonial } from '../types';
+import { NAV_ITEMS_ES, EXPERIENCES_ES, EDUCATION_ES, PROJECTS_ES, SERVICES_ES } from './es';
+import { NAV_ITEMS_EN, EXPERIENCES_EN, EDUCATION_EN, PROJECTS_EN, SERVICES_EN } from './en';
 
 export const SKILLS: Skill[] = [
   { name: 'PHP / Laravel', level: 100, category: 'backend' },
@@ -48,6 +48,7 @@ export function getLocalizedData(locale: Locale) {
       experiences: EXPERIENCES_EN,
       education: EDUCATION_EN,
       projects: PROJECTS_EN,
+      services: SERVICES_EN,
       contactInfo: CONTACT_INFO_EN,
     };
   }
@@ -56,9 +57,46 @@ export function getLocalizedData(locale: Locale) {
     experiences: EXPERIENCES_ES,
     education: EDUCATION_ES,
     projects: PROJECTS_ES,
+    services: SERVICES_ES,
     contactInfo: CONTACT_INFO_ES,
   };
 }
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    name: 'Hebert Galué',
+    role: 'Socio & Senior Backend Developer',
+    company: 'Citorush System',
+    text: 'Marco es un excelente profesional y mucha mejor persona. Es una eminencia en la gestión de proyectos, especialmente en el papel de Arquitecto y analista técnico funcional.',
+    textEn: 'Marco is an excellent professional and an even better person. He is an authority in project management, especially in the role of Software Architect and functional technical analyst.',
+    avatar: '/testimonials/hebert-galue.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/hebertgalue/',
+  },
+  {
+    name: 'Ruben Dario Carvajal Herrera',
+    role: 'Software Engineer',
+    text: 'Siempre con ganas de aprender y dispuesto a colaborar. Es una persona que con gran dominio en el desarrollo de software.',
+    textEn: 'Always eager to learn and ready to collaborate. He is someone with great mastery in software development.',
+    avatar: '/testimonials/ruben-carvajal.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/ruben-carvajal-herrera/',
+  },
+  {
+    name: 'Valeria Cerrada Cortes',
+    role: 'Sr. Product Designer & UX/UI Designer',
+    text: 'Excelente persona y compañero de trabajo, es un gran programador, con muchas ideas innovadoras y siempre en constante crecimiento. Muy proactivo y responsable en nuevos desafíos e involucrado en el equipo. Definitivamente lo recomiendo.',
+    textEn: 'Excellent person and coworker, he is a great programmer with many innovative ideas and always in constant growth. Very proactive and responsible in new challenges and involved with the team. I definitely recommend him.',
+    avatar: '/testimonials/valeria-cerrada.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/valeriacerrada/',
+  },
+  {
+    name: 'Mr Omar',
+    role: 'Database Administrator',
+    text: 'Marco Estrada es un profesional a carta cabal, con el que se puede realizar proyectos de toda índole en TI. Su metodología y capacidad para afrontar retos con excelencia para mí es de sus mejores virtudes.',
+    textEn: 'Marco Estrada is a thorough professional with whom you can carry out IT projects of all kinds. His methodology and ability to tackle challenges with excellence are, in my opinion, among his greatest strengths.',
+    avatar: '/testimonials/mr-omar.jpg',
+    linkedinUrl: 'https://www.linkedin.com/in/mr-omar-50134210/',
+  },
+];
 
 // Keep backward-compatible default exports for CONTACT_INFO
 export const CONTACT_INFO = CONTACT_INFO_ES;
