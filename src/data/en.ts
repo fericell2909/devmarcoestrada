@@ -8,6 +8,7 @@ export const NAV_ITEMS_EN: NavItem[] = [
   { label: 'Portfolio', href: '#portfolio' },
   { label: 'Reviews', href: '#testimonials' },
   { label: 'Contact', href: '#contact' },
+  { label: 'Blog', href: '/blog' },
 ];
 
 export const EXPERIENCES_EN: Experience[] = [

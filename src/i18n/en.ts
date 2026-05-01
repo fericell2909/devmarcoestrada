@@ -113,4 +113,15 @@ export const en: Translations = {
   whatsapp: {
     ariaLabel: 'Contact via WhatsApp',
   },
+  blog: {
+    tag: '07. Blog',
+    title: 'Technical',
+    titleAccent: 'articles',
+    readMore: 'Read article',
+    minRead: 'min read',
+    backToBlog: 'Back to blog',
+    published: 'Published on',
+    filterAll: 'All',
+    noPosts: 'No articles available.',
+  },
 };
