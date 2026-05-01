@@ -59,6 +59,17 @@ export interface Certification {
   year?: string;
 }
 
+export interface BlogPost {
+  slug: string;
+  title: string;
+  description: string;
+  date: string;
+  cover: string;
+  tags: string[];
+  readTime: number;
+  content: string;
+}
+
 export type Locale = 'es' | 'en';
 
 export interface Translations {
@@ -173,5 +184,16 @@ export interface Translations {
   };
   whatsapp: {
     ariaLabel: string;
+  };
+  blog: {
+    tag: string;
+    title: string;
+    titleAccent: string;
+    readMore: string;
+    minRead: string;
+    backToBlog: string;
+    published: string;
+    filterAll: string;
+    noPosts: string;
   };
 }

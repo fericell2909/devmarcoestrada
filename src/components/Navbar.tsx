@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Sun, Moon, Globe } from 'lucide-react';
 import { useActiveSection } from '../hooks/useInView';
 import { useTheme } from '../hooks/useTheme';
@@ -11,6 +11,7 @@ export default function Navbar({ minimal = false }: { minimal?: boolean }) {
   const active = useActiveSection();
   const { theme, toggleTheme } = useTheme();
   const { locale, toggleLocale, t, navItems } = useLanguage();
+  const location = useLocation();
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 40);
@@ -18,10 +19,21 @@ export default function Navbar({ minimal = false }: { minimal?: boolean }) {
     return () => window.removeEventListener('scroll', handler);
   }, []);
 
-  const handleClick = (href: string) => {
+  const handleAnchorClick = (href: string) => {
     setOpen(false);
+    if (location.pathname !== '/') {
+      window.location.href = `/${href}`;
+      return;
+    }
     const el = document.querySelector(href);
     el?.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const isRouteLink = (href: string) => href.startsWith('/') && !href.startsWith('/#');
+
+  const isActive = (href: string) => {
+    if (isRouteLink(href)) return location.pathname === href;
+    return active === href.slice(1);
   };
 
   return (
@@ -35,15 +47,26 @@ export default function Navbar({ minimal = false }: { minimal?: boolean }) {
 
       {!minimal && (
         <nav className="navbar__links" aria-label={t.navbar.mainNav}>
-          {navItems.map((item) => (
-            <button
-              key={item.href}
-              onClick={() => handleClick(item.href)}
-              className={`navbar__link ${active === item.href.slice(1) ? 'navbar__link--active' : ''}`}
-            >
-              {item.label}
-            </button>
-          ))}
+          {navItems.map((item) =>
+            isRouteLink(item.href) ? (
+              <Link
+                key={item.href}
+                to={item.href}
+                onClick={() => setOpen(false)}
+                className={`navbar__link ${isActive(item.href) ? 'navbar__link--active' : ''}`}
+              >
+                {item.label}
+              </Link>
+            ) : (
+              <button
+                key={item.href}
+                onClick={() => handleAnchorClick(item.href)}
+                className={`navbar__link ${isActive(item.href) ? 'navbar__link--active' : ''}`}
+              >
+                {item.label}
+              </button>
+            )
+          )}
         </nav>
       )}
 
@@ -79,15 +102,26 @@ export default function Navbar({ minimal = false }: { minimal?: boolean }) {
 
       {!minimal && open && (
         <nav className="navbar__mobile" aria-label={t.navbar.mobileNav}>
-          {navItems.map((item) => (
-            <button
-              key={item.href}
-              onClick={() => handleClick(item.href)}
-              className={`navbar__mobile-link ${active === item.href.slice(1) ? 'navbar__mobile-link--active' : ''}`}
-            >
-              {item.label}
-            </button>
-          ))}
+          {navItems.map((item) =>
+            isRouteLink(item.href) ? (
+              <Link
+                key={item.href}
+                to={item.href}
+                onClick={() => setOpen(false)}
+                className={`navbar__mobile-link ${isActive(item.href) ? 'navbar__mobile-link--active' : ''}`}
+              >
+                {item.label}
+              </Link>
+            ) : (
+              <button
+                key={item.href}
+                onClick={() => handleAnchorClick(item.href)}
+                className={`navbar__mobile-link ${isActive(item.href) ? 'navbar__mobile-link--active' : ''}`}
+              >
+                {item.label}
+              </button>
+            )
+          )}
         </nav>
       )}
     </header>
