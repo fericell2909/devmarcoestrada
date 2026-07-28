@@ -13,38 +13,38 @@ export const NAV_ITEMS_ES: NavItem[] = [
 
 export const EXPERIENCES_ES: Experience[] = [
   {
-    role: 'Desarrollador Full Stack Senior Remoto',
-    company: 'GUX Tech',
-    period: 'Enero 2021 – Presente',
-    description: 'Desarrollo de soluciones web escalables para clientes internacionales. Liderazgo en proyectos FullStack y despliegue en AWS. Integración con APIs externas y servicios cloud AWS.',
-    tech: ['Django', 'Laravel', 'React', 'Rails', 'AWS', 'PostgreSQL'],
-  },
-  {
-    role: 'Desarrollador Full Stack Senior Remoto',
-    company: 'Brandfood',
-    period: 'Julio 2020 – Diciembre 2020',
-    description: 'Desarrollo y mantenimiento de plataforma e-commerce. Implementación de módulos de pago y gestión de inventario.',
-    tech: ['Node.js', 'Vue.js', 'MySQL'],
+    role: 'Desarrollador Full Stack — Especialista Python & React',
+    company: 'GUX (Great User Experience)',
+    period: 'Ene 2021 – Actualidad',
+    description: 'Desarrollé tiendas virtuales de extremo a extremo con React y Python, implementé despliegues serverless en AWS, documenté APIs REST y modernicé sistemas legacy con pipelines CI/CD y buenas prácticas de testing.',
+    tech: ['React', 'TypeScript', 'Python', 'FastAPI', 'Django REST Framework', 'AWS', 'PostgreSQL', 'Docker'],
   },
   {
     role: 'Desarrollador de Software Senior',
-    company: 'Uladech Católica',
-    period: '2018 – 2020',
-    description: 'Desarrollo de sistemas de gestión académica y administrativa. Liderazgo de equipo de 5 desarrolladores.',
-    tech: ['PHP', 'C#', '.NET', 'SQL Server', 'JavaScript'],
+    company: 'Universidad Los Ángeles de Chimbote',
+    period: 'Dic 2018 – Dic 2020',
+    description: 'Construí módulos de gestión académica y administrativa con Python y React, automatizando procesos institucionales y aplicando flujos de datos en la nube.',
+    tech: ['React', 'Python', 'Django REST Framework', 'AWS', 'PostgreSQL', 'SQL Server'],
+  },
+  {
+    role: 'Analista Programador de Sistemas',
+    company: 'Peruana de Combustible SAC',
+    period: 'Nov 2012 – Nov 2018',
+    description: 'Desarrollé sistemas de costos y presupuestos para cinco plantas, mejoré los controles de producción y entregué soluciones POS y facturación electrónica con integraciones de pago y despliegues CI/CD.',
+    tech: ['Python', 'Django', 'PHP', 'Laravel', 'MySQL', 'SQL Server', 'AWS'],
   },
 ];
 
 export const EDUCATION_ES: Education[] = [
   {
-    degree: 'Maestría en Gestión de Tecnologías de Información',
-    institution: 'Universidad Nacional del Santa',
-    period: '2018 – 2020',
-  },
-  {
-    degree: 'Ingeniero de Sistemas e Informática',
+    degree: 'Ingeniería de Sistemas e Informática (CIP 202610) — Titulado',
     institution: 'Universidad Nacional del Santa',
     period: '2006 – 2010',
+  },
+  {
+    degree: 'Maestría en Gestión de TI — Graduado',
+    institution: 'Universidad Nacional del Santa',
+    period: '2018 – 2020',
   },
 ];
 
@@ -84,42 +84,42 @@ export const SERVICES_ES: Service[] = [
     id: 'fullstack',
     icon: 'Code2',
     title: 'Desarrollo Web Full Stack',
-    description: 'Construcción de aplicaciones web completas: desde interfaces de usuario con React o Vue hasta APIs robustas con Laravel, Django o Node.js. Entrego productos escalables, bien testeados y listos para producción.',
-    tags: ['React', 'Vue.js', 'Laravel', 'Node.js', 'PostgreSQL'],
+    description: 'Aplicaciones completas con React y Python, desde interfaces modernas hasta APIs robustas, despliegues en la nube y buenas prácticas de ingeniería.',
+    tags: ['React', 'Python', 'FastAPI', 'Django', 'AWS'],
   },
   {
     id: 'cloud',
     icon: 'Cloud',
     title: 'Arquitectura Cloud & AWS',
-    description: 'Diseño e implementación de infraestructura cloud en AWS: Lambda, API Gateway, RDS, S3, CloudFront. Pipelines CI/CD con GitHub Actions, contenedores Docker y estrategias de escalabilidad automática.',
-    tags: ['AWS', 'Docker', 'CI/CD', 'Lambda', 'Terraform'],
+    description: 'Diseño e implementación de infraestructura en AWS con Lambda, API Gateway, RDS, S3, CloudFront, Docker y pipelines CI/CD.',
+    tags: ['AWS', 'Docker', 'CI/CD', 'Lambda', 'Serverless'],
   },
   {
     id: 'mentoring',
     icon: 'GraduationCap',
     title: 'Mentoría & Code Review',
-    description: 'Sesiones 1:1 para desarrolladores que quieren crecer: buenas prácticas, patrones de diseño, preparación para entrevistas técnicas y revisión de proyectos personales con feedback detallado.',
+    description: 'Mentoría técnica y revisión de código para desarrolladores que quieren crecer con hábitos sólidos de ingeniería, patrones de diseño y mejor entrega.',
     tags: ['1:1 Mentoring', 'Clean Code', 'SOLID', 'Entrevistas'],
   },
   {
     id: 'ecommerce',
     icon: 'ShoppingCart',
     title: 'Desarrollo E-commerce',
-    description: 'Tiendas virtuales completas: catálogo de productos, carrito, integración con pasarelas de pago (Culqi, PayPal, Stripe), gestión de inventario y panel de administración personalizado.',
-    tags: ['WooCommerce', 'Pagos', 'Catálogo', 'PHP', 'Vue.js'],
+    description: 'Tiendas virtuales completas con gestión de catálogo, pagos, flujos de inventario y paneles de administración personalizados.',
+    tags: ['E-commerce', 'Pagos', 'Catálogo', 'PHP', 'Vue.js'],
   },
   {
     id: 'apis',
     icon: 'Plug',
     title: 'Integración de APIs & Microservicios',
-    description: 'Diseño e integración de APIs REST y GraphQL, conexión con servicios de terceros, webhooks y arquitecturas de microservicios. Experiencia con pasarelas de pago, ERPs y plataformas SaaS.',
+    description: 'Diseño e integración de APIs REST, servicios de terceros, webhooks e integraciones cloud para procesos escalables.',
     tags: ['REST', 'GraphQL', 'Webhooks', 'AWS Lambda', 'Node.js'],
   },
   {
     id: 'migration',
     icon: 'ArrowRightLeft',
     title: 'Migración y Modernización',
-    description: 'Evaluación y modernización de plataformas tecnológicas obsoletas: análisis del sistema actual, rediseño de arquitectura, migración de datos y refactoring progresivo. Sin importar el stack de origen, garantizo continuidad del negocio durante toda la transición.',
+    description: 'Evaluación y modernización de plataformas legacy con rediseño de arquitectura, migración de datos y refactoring progresivo con mínima interrupción.',
     tags: ['Legacy Systems', 'Refactoring', 'Arquitectura', 'Migración de Datos', 'CI/CD'],
   },
 ];

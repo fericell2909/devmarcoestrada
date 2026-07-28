@@ -3,8 +3,8 @@ import type { Translations } from '../types';
 export const es: Translations = {
   hero: {
     badge: 'Disponible para proyectos remotos',
-    roles: ['Desarrollador de Software Senior', 'AWS Apasionado', 'Entusiasta de CI/CD', 'Especialista en FrontEnd & BackEnd'],
-    bio: '15+ años construyendo productos digitales robustos y escalables. Apasionado por el código limpio, arquitecturas sólidas y equipos que entregan valor real.',
+    roles: ['Desarrollador Full-Stack', 'Especialista Python & React', 'AWS & CI/CD', 'Ingeniero Backend & Frontend'],
+    bio: '15+ años construyendo productos digitales robustos con Python, React y AWS. Apasionado por el código limpio, la automatización y las soluciones basadas en datos.',
     cta: 'Hablemos',
     statYears: 'Años exp.',
     statRepos: 'Repositorios',
@@ -25,8 +25,8 @@ export const es: Translations = {
     tag: '01. Sobre mí',
     title: 'Quién',
     titleAccent: 'soy',
-    description1: 'Desarrollador Full Stack Senior con más de 15 años transformando ideas en productos digitales. Domino el ciclo completo de desarrollo — desde frontends con React, Vue.js y TypeScript hasta backends robustos con Laravel, Django, .NET y Node.js. Diseño e implemento arquitecturas cloud en AWS con Lambda, API Gateway, pipelines CI/CD, contenedores Docker y bases de datos relacionales (PostgreSQL, MySQL, SQL Server, Oracle). Certificado AWS Cloud Practitioner y Scrum Developer, con maestría en Gestión de TI y experiencia liderando equipos en entornos ágiles para clientes internacionales.',
-    description2: 'Fácil de trabajar en equipo, adaptable y siempre buscando el siguiente reto desafiante.',
+    description1: 'Soy un apasionado de la ingeniería de software y el trabajo con datos, convencido de que la tecnología bien construida tiene el poder de transformar realidades. Con más de 15 años de trayectoria, mi carrera ha sido un camino constante de aprendizaje y búsqueda de la excelencia técnica, guiado por los principios del aprendizaje de por vida (lifelong learning). Formo parte activa de comunidades de práctica donde comparto la pasión por las nuevas tecnologías, la automatización y las mejores prácticas de gestión de datos.',
+    description2: 'Mi gran objetivo de vida es alcanzar la independencia financiera plena mientras construyo una carrera remota sostenible, lo que me permite equilibrar mi amor por crear soluciones robustas con la libertad personal. Busco unirme como desarrollador a empresas que sigan rigurosas prácticas de ingeniería —como documentación sólida, pruebas y pipelines de DevOps eficientes— y que me reten con grandes desafíos técnicos, como escalar aplicaciones o implementar tecnologías innovadoras.',
     birthDate: '29 de Septiembre, 1987',
     downloadCv: 'Descargar CV',
     contactMe: 'Contáctame',
