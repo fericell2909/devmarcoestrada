@@ -1,14 +1,14 @@
 import { MapPin, Mail, Phone, Download, Calendar } from 'lucide-react';
+import cvEnglish from '../assets/hero/cv_english_mel.pdf';
+import cvSpanish from '../assets/hero/cv_spanish_mel.pdf';
 import { useInView } from '../hooks/useInView';
 import { useLanguage } from '../hooks/useLanguage';
 
 export default function About() {
   const { ref, inView } = useInView();
-  const { t, locale } = useLanguage();
+  const { t, locale, contactInfo } = useLanguage();
 
-  const cvUrl = locale === 'en'
-    ? 'https://amzn-s3-files-public.s3.us-east-1.amazonaws.com/cv_marco_estrada_lopez_2026_spanish.pdf'
-    : 'https://amzn-s3-files-public.s3.us-east-1.amazonaws.com/cv_marco_estrada_lopez_2026_spanish.pdf';
+  const cvUrl = locale === 'en' ? cvEnglish : cvSpanish;
 
   return (
     <section
@@ -49,15 +49,15 @@ export default function About() {
               </li>
               <li>
                 <MapPin size={14} />
-                <span>Nuevo Chimbote, Perú</span>
+                <span>{contactInfo.location}</span>
               </li>
               <li>
                 <Mail size={14} />
-                <a href="mailto:info@devmarcoestrada.com">info@devmarcoestrada.com</a>
+                <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a>
               </li>
               <li>
                 <Phone size={14} />
-                <a href="tel:+51902530468">+51 902 530 468</a>
+                <a href={`tel:${contactInfo.phone.replace(/\s+/g, '')}`}>{contactInfo.phone}</a>
               </li>
             </ul>
 

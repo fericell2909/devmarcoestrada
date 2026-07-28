@@ -3,8 +3,8 @@ import type { Translations } from '../types';
 export const en: Translations = {
   hero: {
     badge: 'Available for remote projects',
-    roles: ['Full Stack Developer', 'AWS Lover', 'CI/CD Enthusiast', 'FrontEnd & BackEnd Specialist'],
-    bio: '15+ years building robust and scalable digital products. Passionate about clean code, solid architectures, and teams that deliver real value.',
+    roles: ['Full-Stack Developer', 'Python & React Specialist', 'AWS & CI/CD Enthusiast', 'Backend & Frontend Engineer'],
+    bio: '15+ years building robust digital products with Python, React, and AWS. Passionate about clean code, automation, and data-driven solutions.',
     cta: "Let's talk",
     statYears: 'Years exp.',
     statRepos: 'Repositories',
@@ -25,8 +25,8 @@ export const en: Translations = {
     tag: '01. About me',
     title: 'Who',
     titleAccent: 'I am',
-    description1: 'Senior Full Stack Developer with over 15 years transforming ideas into digital products. I master the full development cycle — from frontends with React, Vue.js, and TypeScript to robust backends with Laravel, Django, .NET, and Node.js. I design and implement cloud architectures on AWS with Lambda, API Gateway, CI/CD pipelines, Docker containers, and relational databases (PostgreSQL, MySQL, SQL Server, Oracle). Certified AWS Cloud Practitioner and Scrum Developer, with a Master\'s in IT Management and experience leading teams in agile environments for international clients.',
-    description2: 'Easy to work with, adaptable, and always looking for the next challenging endeavor.',
+    description1: 'I am a software engineering and data enthusiast who truly believes that well-crafted technology has the power to transform realities. With over 15 years of experience, my career has been a continuous journey of learning and the pursuit of technical excellence, driven by the principles of lifelong learning. I am an active member of a community of practice where we share a passion for new technologies, automation, and data management best practices.',
+    description2: 'My ultimate life goal is to achieve full financial independence while building a sustainable remote career, allowing me to balance my passion for creating robust solutions with personal freedom. I am looking to work as a developer in a company that follows top-tier coding practices—such as documentation, testing, and a solid DevOps pipeline—and offers big challenges, like implementing new technologies or scaling applications.',
     birthDate: 'September 29, 1987',
     downloadCv: 'Download CV',
     contactMe: 'Contact me',

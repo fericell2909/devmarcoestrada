@@ -29,7 +29,7 @@ export const CERTIFICATIONS: Certification[] = [
 const CONTACT_INFO_ES = {
   location: 'Nuevo Chimbote, Perú',
   phone: '+51 902 530 468',
-  email: 'info@devmarcoestrada.com',
+  email: 'fericell2909@gmail.com',
   github: 'https://github.com/fericell2909',
   linkedin: 'https://www.linkedin.com/in/marcoestradalopez',
   whatsapp: 'https://api.whatsapp.com/send?phone=51902530468&text=Hola!%20Quisiera%20m%C3%A1s%20informaci%C3%B3n',
